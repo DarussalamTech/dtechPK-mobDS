@@ -40,8 +40,28 @@
                                 <h4 class="modal-title" id="myModalLabel">Track your Order</h4>
                          	</div>
                             <div class="modal-body">
-                            	<h4>Overflowing text to show scroll behavior</h4>
-                            	<p>Cras mattis consectetur purus sit amet fermentum. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Aenean lacinia bibendum nulla sed consectetur. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Donec sed odio dui. Donec ullamcorper nulla non metus auctor fringilla. Cras mattis consectetur purus sit amet fermentum. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Aenean lacinia bibendum nulla sed consectetur. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Donec sed odio dui. Donec ullamcorper nulla non metus auctor fringilla. Cras mattis consectetur purus sit amet fermentum. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Aenean lacinia bibendum nulla sed consectetur. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Donec sed odio dui. Donec ullamcorper nulla non metus auctor fringilla.</p>
+                            	<div class="row">
+                                    <div class="col-lg-6">
+                                        <h4>Track using order ID</h4>
+                                        <table>
+                                        	<tr>
+                                            	<td class="email-td">Email</td>
+                                                <td><input type="text" class="email-search" /><br />Enter Email ID used to place the order</td>
+                                            </tr>
+                                            <tr>
+                                            	<td class="email-td">Order ID</td>
+                                                <td><input type="text" class="email-search" /><br />Enter Email ID used to place the order</td>
+                                            </tr>
+                                            <tr>
+                                            	<td class="email-td"></td>
+                                                <td><a href="#" class="btn btn-danger btn-sm"></a></td>
+                                            </tr>
+                                        </table>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <h4>Login and do more!</h4>
+                                    </div>
+                                </div>
                             </div>
                       	</div>
                   	</div>

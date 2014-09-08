@@ -70,3 +70,7 @@ body { background:#FFF; }
 .search-click-btn { margin-left:6px; }
 
 .modal-close { color:#000 !important; border-radius:50%; border: 3px solid #000 !important; font-size:18px !important; padding: 3px !important; opacity:1 !important; }
+
+.modal-content { padding: 0 10px !important; border-radius: 0 !important; border: 10px solid #cccccc !important; }
+
+.modal-header { border-bottom: 1px solid #656565 !important; }
