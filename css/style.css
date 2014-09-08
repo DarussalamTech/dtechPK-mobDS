@@ -3,9 +3,11 @@
 
 body, html { padding: 0; margin: 0; }
 
-body { background:#FFF; }
+body { background:#FFF; font-family: 'MyriadPro-Regular'; }
 
 @font-face { font-family: 'Calibri Regular'; src:url(../fonts/Calibriregular.eot); src:url(../fonts/Calibriregular.ttf); src:url(../fonts/Calibriregular.otf); }
+
+@font-face { font-family: 'MyriadPro-Regular'; src:url(../fonts/MyriadPro-Regular.eot); src:url(../fonts/MyriadPro-Regular.ttf); src:url(../fonts/MyriadPro-Regular.otf); }
 
 .facebook-like-btn { background:#0e6eb0; width:100%; float:left; padding: 10px 0; margin: 0; border-bottom:1px solid #bababa; }
 
