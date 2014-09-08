@@ -1,0 +1,95 @@
+.main_home_container{width:996px; height:1000px; /*background:#033*/; position:relative; margin:0 auto;}
+.main_home-banner{width:100%; height:380px; position:relative;}
+.collection_banner_style{width:100%; height:548px; /*background:#FFC;*/ position:relative;}
+.collection_half_div{width:484px; height:548px; position:relative;/* background:#CCC*/;}
+.collection_half_div h2{font-family:calibri; font-size:24px; color:#252525; padding-left:15px; }
+.collection_content{width:484px; height:512px; position:relative; border-top:#c7a95a solid 1px; border-bottom:#c7a95a solid 1px;}
+.collection_slider{width:484px; height:350px; background:#FFF; position:relative;}
+ #wrapper {
+				width: 484px;
+				height: 350px;
+				position: absolute;
+				
+			}
+			#carousel {
+				width: 600px;
+				height: 400px;
+				overflow: hidden;
+				position: absolute;
+				z-index: 1;
+				top: 0;
+				left: 0;
+			}
+			#carousel img {
+				display: block;
+				width:314px;
+			}
+			#pager {
+				width: 110px;
+				overflow: hidden;
+				position: absolute;
+				z-index: 2;
+				bottom: -10px;
+				right: 0;
+			}
+			#pager img {
+				display: block;
+				float: left;
+
+				width: 70px;
+				height: 70px;
+				padding: 10px 5px 10px 30px;
+				
+				opacity: 0.7;
+			}
+			#pager img.selected {
+				background: url(img/thumb-selected.png) 0 0 no-repeat transparent;
+				width: 80px;
+				height: 80px;
+				padding: 10px 10px 10px 20px;
+				
+				opacity: 1;
+			}
+			
+			#carwrapper {
+				width: 100%;
+				height: 380px;
+				overflow: hidden;
+			}
+			.caroufredsel_wrapper{height:380px !important; width:996px !important; top:0 !important;}
+			#carcarousel {
+				width: 600px;
+				height: 400px;
+				overflow: hidden;
+				position: absolute;
+				top: 0;
+				left: 0;
+			}
+			#carcarousel img {
+				display: block;
+				float: left;
+				width:996px !important; 
+			}
+			#carthumbnails {
+				width: 996px !important;
+				height: 120px !important;
+				overflow: hidden;
+				position: absolute !important;
+				top: 350px !important;
+				left: 0;
+				z-index: 2  !important;
+			}
+			#carthumbnails img {
+				display: block;
+				float: left;
+				margin: 10px;
+				width: 100px;
+				height: 100px;
+				
+				box-shadow: 0 0 10px #000;
+			}
+			#carthumbnails:hover {
+				top:260px !important;
+				transition:all 0.5s ease;
+			}
+
