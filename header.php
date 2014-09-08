@@ -29,8 +29,24 @@
                     </div>
                 </div>
                 <div class="col-lg-4">
-                	<p><a class="btn btn-danger btn-lg pull-right" role="button">SIGN IN / MY ACCOUNT</a></p>
+                	<p><a class="btn btn-danger btn-lg pull-right" role="button" data-toggle="modal" data-target="#myModal">SIGN IN / MY ACCOUNT</a></p>
                 </div>
+                <!-- Modal -->
+                <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                	<div class="modal-dialog">
+                    	<div class="modal-content">
+                        	<div class="modal-header">
+                            	<button type="button" class="close modal-close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                                <h4 class="modal-title" id="myModalLabel">Track your Order</h4>
+                         	</div>
+                            <div class="modal-body">
+                            	<h4>Overflowing text to show scroll behavior</h4>
+                            	<p>Cras mattis consectetur purus sit amet fermentum. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Aenean lacinia bibendum nulla sed consectetur. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Donec sed odio dui. Donec ullamcorper nulla non metus auctor fringilla. Cras mattis consectetur purus sit amet fermentum. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Aenean lacinia bibendum nulla sed consectetur. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Donec sed odio dui. Donec ullamcorper nulla non metus auctor fringilla. Cras mattis consectetur purus sit amet fermentum. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Aenean lacinia bibendum nulla sed consectetur. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Donec sed odio dui. Donec ullamcorper nulla non metus auctor fringilla.</p>
+                            </div>
+                      	</div>
+                  	</div>
+              	</div>
+                <!-- Modal End -->
             </div>
             <div class="row header-right-bottom">
             	<div class="col-lg-2">
