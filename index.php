@@ -30,6 +30,63 @@
 				});
 			});
 		</script>
+         <script type="text/javascript">
+			$(function() {
+				$('#carousel_2').carouFredSel({
+					items: 1,
+					auto: false,
+					scroll: {
+						fx: 'none'
+					},
+					pagination: {
+						container: '#pager_2',
+						event: 'mouseenter',
+						anchorBuilder: function(nr) {
+							var src = $(this).attr('src').replace('/large/', '/small/');
+							return '<img src="'+ src +'" border="0" />';
+						}
+					}
+				});
+			});
+		</script>
+        <script type="text/javascript">
+			$(function() {
+				$('#carousel_3').carouFredSel({
+					items: 1,
+					auto: false,
+					scroll: {
+						fx: 'none'
+					},
+					pagination: {
+						container: '#pager_3',
+						event: 'mouseenter',
+						anchorBuilder: function(nr) {
+							var src = $(this).attr('src').replace('/large/', '/small/');
+							return '<img src="'+ src +'" border="0" />';
+						}
+					}
+				});
+			});
+		</script>
+        <script type="text/javascript">
+			$(function() {
+				$('#carousel_4').carouFredSel({
+					items: 1,
+					auto: false,
+					scroll: {
+						fx: 'none'
+					},
+					pagination: {
+						container: '#pager_4',
+						event: 'mouseenter',
+						anchorBuilder: function(nr) {
+							var src = $(this).attr('src').replace('/large/', '/small/');
+							return '<img src="'+ src +'" border="0" />';
+						}
+					}
+				});
+			});
+		</script>
         <script type="text/javascript">
 			$(function() {
 				$('#carwrapper').hover(

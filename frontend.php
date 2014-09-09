@@ -34,15 +34,135 @@
             	<div class="collection_slider">
                     <div id="wrapper">
                             <div id="carousel" style="width:484px;">
-                            <img src="img/large/rally1.jpg" alt="rally1" width="600" height="400" border="0" />
-                            <img src="img/large/rally2.jpg" alt="rally2" width="600" height="400" border="0" />
-                            <img src="img/large/rally3.jpg" alt="rally3" width="600" height="400" border="0" />
-                            <img src="img/large/rally4.jpg" alt="rally4" width="600" height="400" border="0" />
+                            <img src="img/large/al_hadiq.jpg" alt="rally1"/>
+                            <img src="img/small/riyaz_ul_saliheen.jpg" alt="rally2"/>
+                            <img src="img/small/islam.jpg" alt="rally3"/>
                             </div>
                    		 <div id="pager"></div>
                     </div>
                 </div>
+                   <div class="bottom_collection_content">
+                   		<div class="left_collection_content">
+                        	<h3>GHAZWAT E NABI SERIES</h3>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
+                        </div>
+                        <div class="right_collection_content">
+                        	<p><span>PRICE:</span> 180 PKR</p>
+                            <p><span>QUANTITY:</span> 10</p>
+                            <p><span>SHIPPING:</span> Available</p>
+                        </div>
+                        <div class="clr"></div>
+                   </div>
             </div>
+        </div>
+        <div class="collection_half_div float_right">
+        	<h2>KIDS EDUCATIONAL COLLECTION</h2>
+            <div class="collection_content">
+            	<div class="collection_slider">
+                    <div id="wrapper_2">
+                            <div id="carousel_2" style="width:484px;">
+                            <img src="img/large/rally1.jpg" alt="rally1"/>
+                            <img src="img/large/rally2.jpg" alt="rally2"/>
+                            <img src="img/large/rally3.jpg" alt="rally3"/>
+                            <img src="img/large/rally4.jpg" alt="rally4"/>
+                            </div>
+                   		 <div id="pager_2"></div>
+                    </div>
+                </div>
+                   <div class="bottom_collection_content">
+                   		<div class="left_collection_content">
+                        	<h3>KIDS EDUCATIONAL</h3>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
+                        </div>
+                        <div class="right_collection_content">
+                        	<p><span>PRICE:</span> 180 PKR</p>
+                            <p><span>QUANTITY:</span> 10</p>
+                            <p><span>SHIPPING:</span> Available</p>
+                        </div>
+                        <div class="clr"></div>
+                   </div>
+            </div>
+        </div>
+        <div class="clr"></div>
+    </div>
+    <div class="collection_banner_style">
+    	<div class="collection_half_div">
+        	<h2>LATEST ISLAMIC COLLECTION</h2>
+            <div class="collection_content">
+            	<div class="collection_slider">
+                    <div id="wrapper_3">
+                            <div id="carousel_3" style="width:484px;">
+                            <img src="img/large/rally1.jpg" alt="rally1"/>
+                            <img src="img/large/rally2.jpg" alt="rally2"/>
+                            <img src="img/large/rally3.jpg" alt="rally3"/>
+                            <img src="img/large/rally4.jpg" alt="rally4"/>
+                            </div>
+                   		 <div id="pager_3"></div>
+                    </div>
+                </div>
+                   <div class="bottom_collection_content">
+                   		<div class="left_collection_content">
+                        	<h3>GHAZWAT E NABI SERIES</h3>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
+                        </div>
+                        <div class="right_collection_content">
+                        	<p><span>PRICE:</span> 180 PKR</p>
+                            <p><span>QUANTITY:</span> 10</p>
+                            <p><span>SHIPPING:</span> Available</p>
+                        </div>
+                        <div class="clr"></div>
+                   </div>
+            </div>
+        </div>
+        <div class="collection_half_div float_right">
+        	<h2>LATEST ISLAMIC COLLECTION</h2>
+            <div class="collection_content">
+            	<div class="collection_slider">
+                    <div id="wrapper_4">
+                            <div id="carousel_4" style="width:484px;">
+                            <img src="img/large/rally1.jpg" alt="rally1"/>
+                            <img src="img/large/rally2.jpg" alt="rally2"/>
+                            <img src="img/large/rally3.jpg" alt="rally3"/>
+                            <img src="img/large/rally4.jpg" alt="rally4"/>
+                            </div>
+                   		 <div id="pager_4"></div>
+                    </div>
+                </div>
+                   <div class="bottom_collection_content">
+                   		<div class="left_collection_content">
+                        	<h3>GHAZWAT E NABI SERIES</h3>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
+                        </div>
+                        <div class="right_collection_content">
+                        	<p><span>PRICE:</span> 180 PKR</p>
+                            <p><span>QUANTITY:</span> 10</p>
+                            <p><span>SHIPPING:</span> Available</p>
+                        </div>
+                        <div class="clr"></div>
+                   </div>
+            </div>
+        </div>
+        <div class="clr"></div>
+    </div>
+    <div class="bottom_collection_detail">
+    	<h3>WHAT OTHER CUSTOMERS ARE LOOKING AT?</h3>
+        <div class="collection_images">
+        	<figure>
+            	<img src="images/b_img_1.jpg" alt="image" />
+            	<figcaption>Quran Collection</figcaption>
+            </figure>
+            <figure>
+            	<img src="images/b_img_2.jpg" alt="image" />
+            	<figcaption>Women Collection</figcaption>
+            </figure>
+            <figure>
+            	<img src="images/b_img_3.jpg" alt="image" />
+            	<figcaption>Toys for Kids</figcaption>
+            </figure>
+            <figure>
+            	<img src="images/b_img_4.jpg" alt="image" />
+            	<figcaption>Abe-e-zam zam</figcaption>
+            </figure>
         </div>
     </div>
 </div>
