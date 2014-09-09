@@ -34,9 +34,10 @@
             	<div class="collection_slider">
                     <div id="wrapper">
                             <div id="carousel" style="width:484px;">
-                            <img src="img/large/al_hadiq.jpg" alt="rally1"/>
-                            <img src="img/small/riyaz_ul_saliheen.jpg" alt="rally2"/>
-                            <img src="img/small/islam.jpg" alt="rally3"/>
+                            <img src="img/large/rally1.jpg" alt="rally1"/>
+                            <img src="img/large/rally2.jpg" alt="rally2"/>
+                            <img src="img/large/rally3.jpg" alt="rally3"/>
+                            <img src="img/large/rally4.jpg" alt="rally4"/>
                             </div>
                    		 <div id="pager"></div>
                     </div>
@@ -87,7 +88,7 @@
     </div>
     <div class="collection_banner_style">
     	<div class="collection_half_div">
-        	<h2>LATEST ISLAMIC COLLECTION</h2>
+        	<h2>WOMEN COLLECTION</h2>
             <div class="collection_content">
             	<div class="collection_slider">
                     <div id="wrapper_3">
@@ -102,7 +103,7 @@
                 </div>
                    <div class="bottom_collection_content">
                    		<div class="left_collection_content">
-                        	<h3>GHAZWAT E NABI SERIES</h3>
+                        	<h3>ABAYA AND BAGS</h3>
                             <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
                         </div>
                         <div class="right_collection_content">
@@ -115,7 +116,7 @@
             </div>
         </div>
         <div class="collection_half_div float_right">
-        	<h2>LATEST ISLAMIC COLLECTION</h2>
+        	<h2>TOY FOR KIDS</h2>
             <div class="collection_content">
             	<div class="collection_slider">
                     <div id="wrapper_4">
@@ -130,7 +131,7 @@
                 </div>
                    <div class="bottom_collection_content">
                    		<div class="left_collection_content">
-                        	<h3>GHAZWAT E NABI SERIES</h3>
+                        	<h3>KIDS DIGITAL BOOK</h3>
                             <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
                         </div>
                         <div class="right_collection_content">

@@ -1,3 +1,4 @@
+body{overflow-x:hidden}
 .clr{clear:both;}
 .float_right{float:right !important;}
 .main_home_container{width:996px; min-height:1000px; /*background:#033*/; position:relative; margin:0 auto;}
@@ -12,7 +13,7 @@
 .left_collection_content h3{font-family:calibri; font-size:22px; color:#252525; padding-left:15px; margin-top:10px;}
 .left_collection_content p{font-family:calibri; font-size:12px; color:#252525; padding:0 15px;}
 .right_collection_content{width:170px; height:130px; position:relative; /*background:#0C6;*/ float:right; display:inline;}
-.right_collection_content p{font-family:calibri; font-size:14px; color:#252525; padding:10px 0 0 15px}
+.right_collection_content p{font-family:calibri; font-size:16px; color:#252525; padding:10px 0 0 15px}
 .right_collection_content p span{font-weight:bold; font-size:16px;}
 .bottom_collection_detail{width:996px; height:300px; position:relative; /*background:#33F;*/ }
 .bottom_collection_detail h3{font-family:calibri; font-size:22px; color:#252525; border-bottom:#c7a95a solid 1px; padding:30px 0 15px 15px;}
