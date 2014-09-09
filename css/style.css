@@ -194,3 +194,9 @@ body { background:#FFF; font-family: 'MyriadPro-Regular'; }
 .bottom-footer p a { color:#3d3d3d; font-size:16px; border-right:1px solid #3d3d3d; padding: 0 10px; margin: 0; }
 
 .bottom-footer p a:last-child { border-right: none; }
+
+.label-default { background:none !important; color:#464646 !important; font-size:14px !important; }
+
+.label { color:#464646 !important; }
+
+.clear-rating i { display:none !important; }
