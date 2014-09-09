@@ -189,6 +189,19 @@
                         <ul class="dropdown-menu megamenu row">
                         	<li class="col-sm-3">
                             	<ul>
+                                	<li class="dropdown-header">Button groups</li>
+                                    <li><a href="#">Basic example</a></li>
+                                    <li><a href="#">Button toolbar</a></li>
+                                    <li><a href="#">Sizing</a></li>
+                                    <li><a href="#">Nesting</a></li>
+                                    <li><a href="#">Vertical variation</a></li>
+                                    <li class="divider"></li>
+                                    <li class="dropdown-header">Button dropdowns</li>
+                                    <li><a href="#">Single button dropdowns</a></li>
+                             	</ul>
+                          	</li>
+                            <li class="col-sm-3">
+                            	<ul>
                                 	<li class="dropdown-header">Glyphicons</li>
                                     <li><a href="#">Available glyphs</a></li>
                                     <li class="disabled"><a href="#">How to use</a></li>
@@ -199,19 +212,6 @@
                                     <li><a href="#">Aligninment options</a></li>
                                     <li><a href="#">Headers</a></li>
                                     <li><a href="#">Disabled menu items</a></li>
-                             	</ul>
-                          	</li>
-                            <li class="col-sm-3">
-                            	<ul>
-                                	<li class="dropdown-header">Button groups</li>
-                                    <li><a href="#">Basic example</a></li>
-                                    <li><a href="#">Button toolbar</a></li>
-                                    <li><a href="#">Sizing</a></li>
-                                    <li><a href="#">Nesting</a></li>
-                                    <li><a href="#">Vertical variation</a></li>
-                                    <li class="divider"></li>
-                                    <li class="dropdown-header">Button dropdowns</li>
-                                    <li><a href="#">Single button dropdowns</a></li>
                              	</ul>
                          	</li>
                             <li class="col-sm-3">
