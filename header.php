@@ -1,9 +1,23 @@
+<link rel="stylesheet" type="text/css" href="css/zocial.css" />
+<link href='http://fonts.googleapis.com/css?family=Pompiere' rel='stylesheet' type='text/css'>
+<script src="https://apis.google.com/js/platform.js" async defer></script>
+
 <div class="facebook-like-btn">
     <div class="container">
         <div class="pull-right">
             <span>Like us on</span>
-            <div class="fb-like" data-href="https://www.facebook.com/darussalam.sns/" data-layout="button" data-action="like" data-show-faces="false" data-share="false"></div>
-            <div id="fb-root"></div>
+            <div class="tweet-btn-header">
+            	<a href="https://twitter.com/twitter" class="twitter-follow-button" data-show-count="false" data-show-screen-name="false">Tweet</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+            </div>
+            <!-- Place this tag where you want the widget to render. -->
+            <div class="gplus-btn-header">
+            	<div class="g-follow" data-annotation="none" data-height="20" data-href="//plus.google.com/u/0/105372605182828278518" data-rel="author"></div>
+            </div>
+            <div class="fb-btn-header">
+                <div class="fb-like" data-href="https://www.facebook.com/darussalam.sns/" data-layout="button" data-action="like" data-show-faces="false" data-share="false"></div>
+                <div id="fb-root"></div>
+            </div>
             <script>(function(d, s, id) {
               var js, fjs = d.getElementsByTagName(s)[0];
               if (d.getElementById(id)) return;
@@ -23,8 +37,73 @@
         	<div class="row header-right">
             	<div class="col-lg-8">
                     <div class="order-cart-help">
-                        <p><a href="#">Track my Order <span class="order-bg"></span></a></p>
-                        <p><a href="#">Gift Cards <span class="cart-bg"></span></a></p>
+                        <p><a href="#" data-toggle="modal" data-target="#myModal-1">Track my Order <span class="order-bg"></span></a></p>
+                        <!-- Modal -->
+                        <div class="modal fade" id="myModal-1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <button type="button" class="close modal-close modal-track-close" data-dismiss="modal"><span aria-hidden="true"><img src="images/cross.png" alt="Cross" /></span><span class="sr-only">Close</span></button>
+                                        <h4 class="modal-title" id="myModalLabel">Track your Order</h4>
+                                    </div>
+                                    <div class="modal-body">
+                                        <div class="row">
+                                            <div class="col-lg-6 left-col">
+                                                <h4>Track using order ID</h4>
+                                                <table>
+                                                    <tr class="row-tr">
+                                                        <td class="email-td">Email</td>
+                                                        <td class="search-td"><input type="text" class="email-search" /><br />Enter Email ID used to place the order</td>
+                                                    </tr>
+                                                    <tr class="row-tr">
+                                                        <td class="email-td">Order ID</td>
+                                                        <td class="search-td"><input type="text" class="email-search" /><br />13 Characters</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="email-td"></td>
+                                                        <td class="search-td"><a href="#" class="btn btn-danger btn-sm order-btn">View ORDER STATUS</a></td>
+                                                    </tr>
+                                                </table>
+                                                <p class="or">OR</p>
+                                            </div>
+                                            <div class="col-lg-6 right-col">
+                                                <h4>Login and do more!</h4>
+                                                <p>
+                                                    <a href="#">Track individual Orders</a><br />
+                                                    <a href="#">View your entire order history</a><br />
+                                                    <a href="#">Cancel individual Orders</a>
+                                                </p>
+                                                <a href="#" class="btn btn-danger btn-sm login-btn">LOGIN</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Modal End -->
+                        <p><a href="#" data-toggle="modal" data-target="#myModal-2">Gift Cards <span class="cart-bg"></span></a></p>
+                        <!-- Modal -->
+                        <div class="modal fade" id="myModal-2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content modal-gift-body">
+                                    <div class="modal-body modal-gift-body">
+                                        <div class="row">
+                                            <div class="col-lg-4 left-gift">
+                                            	<h3>FREE GIFTS</h3>
+                                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+                                                <p><a href="#" class="btn btn-get">GET</a></p>
+                                            </div>
+                                            <div class="col-lg-8 right-gift">
+                                            	<button type="button" class="close modal-close modal-gift-close" data-dismiss="modal"><span aria-hidden="true"><img src="images/cross.png" alt="Cross" /></span><span class="sr-only">Close</span></button>
+                                            	<!--<span class="glyphicon glyphicon-gift gift-size"></span>-->
+                                                <img src="images/gift-img.png" alt="Gift img" />
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Modal End -->
                         <p class="no-border"><a href="#">Help <span class="help-bg"></span></a></p>
                     </div>
                 </div>
@@ -36,7 +115,7 @@
                 	<div class="modal-dialog">
                     	<div class="modal-content">
                         	<div class="modal-header">
-                            	<button type="button" class="close modal-close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                            	<button type="button" class="close modal-close modal-track-close" data-dismiss="modal"><span aria-hidden="true"><img src="images/cross.png" alt="Cross" /></span><span class="sr-only">Close</span></button>
                                 <h4 class="modal-title" id="myModalLabel">Track your Order</h4>
                          	</div>
                             <div class="modal-body">
@@ -49,24 +128,23 @@
                                                 <td class="search-td"><input type="text" class="email-search" /><br />Enter Email ID used to place the order</td>
                                             </tr>
                                             <tr class="row-tr">
-                                            	<td class="email-td">Order ID</td>
-                                                <td class="search-td"><input type="text" class="email-search" /><br />13 Characters</td>
+                                            	<td class="email-td">Password</td>
+                                                <td class="search-td"><input type="text" class="email-search" /></td>
                                             </tr>
                                             <tr>
                                             	<td class="email-td"></td>
-                                                <td class="search-td"><a href="#" class="btn btn-danger btn-sm order-btn">View ORDER STATUS</a></td>
+                                                <td class="search-td"><a href="#" class="btn btn-danger btn-sm order-btn">Login</a> <a href="#" class="forgot-pswrd">Forgot your password?</a></td>
                                             </tr>
                                         </table>
+                                        <p><a href="#" class="create-one">Don't have an account? Create One!</a></p>
                                         <p class="or">OR</p>
                                     </div>
-                                    <div class="col-lg-6 right-col">
-                                        <h4>Login and do more!</h4>
-                                        <p>
-                                        	<a href="#">Track individual Orders</a><br />
-                                            <a href="#">View your entire order history</a><br />
-                                            <a href="#">Cancel individual Orders</a>
-                                        </p>
-                                        <a href="#" class="btn btn-danger btn-sm login-btn">LOGIN</a>
+                                    <div class="col-lg-6 right-col social-login-btn">
+                                        <h4>Sign in with!</h4>
+                                        <a href="#" class="zocial facebook-button">Sign in with Facebook</a>
+                                        <a href="#" class="zocial googleplus">Sign in with Google+</a>
+                                        <!--<a href="#" class="zocial twitter">Sign in with Twitter</a>
+                                        <a href="#" class="zocial linkedin">Sign in with LinkedIn</a>-->
                                     </div>
                                 </div>
                             </div>
