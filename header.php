@@ -204,7 +204,7 @@
             <div class="navbar-collapse collapse">
             	<ul class="nav navbar-nav">
                 	<li class="dropdown menu-large">
-                    	<a href="#" class="dropdown-toggle" data-toggle="dropdown">ISLAMIC BOOKS <!-- <b class="caret"></b> --></a>
+                    	<a href="product.php" class="dropdown-toggle" data-toggle="dropdown">ISLAMIC BOOKS <!-- <b class="caret"></b> --></a>
                         <ul class="dropdown-menu megamenu row">
                         	<li class="col-sm-3">
                             	<ul>
