@@ -8,8 +8,8 @@
             <span>Like us on</span>
             <div class="tweet-btn-header">
             	<a href="https://twitter.com/twitter" class="twitter-follow-button" data-show-count="false" data-show-screen-name="false">Tweet</a>
+         	</div>
 <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
-            </div>
             <!-- Place this tag where you want the widget to render. -->
             <div class="gplus-btn-header">
             	<div class="g-follow" data-annotation="none" data-height="20" data-href="//plus.google.com/u/0/105372605182828278518" data-rel="author"></div>

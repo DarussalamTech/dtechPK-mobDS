@@ -31,6 +31,7 @@
 				});
 			});
 		</script>
+</head>
 <body>
 <?php include_once("header.php"); ?>
 <div class="container">
@@ -92,8 +93,8 @@
                 <p>Since the majority of the followers of Islam are not native speakers of Arabic, and many of them may not have the chance to learn it properly, translation has been resorted to, however incomplete it may be. But even good translators always find it difficult to translate the special terms from Arabic.</p>
                 <p>A cursory look at the translation of various Islamic works would reveal the discrepancies between the Arabic text and its translation, on one hand, and the different renderings of the same Arabic terms by different translators or even by the same translator at different times.</p>
             </div>
+            <h3>Specifications of Popular: Dictionary of Islamic Words</h3>
         	<table class="table table-bordered">
-               <h3>Specifications of Popular: Dictionary of Islamic Words</h3>
                <tbody>
                   <tr>
                      <td class="left-td">Title:</td>
