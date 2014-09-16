@@ -107,9 +107,54 @@
                         <p class="no-border"><a href="#">Help <span class="help-bg"></span></a></p>
                     </div>
                 </div>
-                <div class="col-lg-4">
-                	<p><a class="btn btn-danger btn-lg pull-right" role="button" data-toggle="modal" data-target="#myModal">SIGN IN / MY ACCOUNT</a></p>
+                <div class="col-lg-4 sign-in-out-btn">
+                	<p><a class="btn btn-danger" role="button" data-toggle="modal" data-target="#myModal-sign">SIGN UP</a> <a class="btn btn-danger" role="button" data-toggle="modal" data-target="#myModal">SIGN IN / MY ACCOUNT</a></p>
                 </div>
+                <!-- Modal Sign out -->
+                <div class="modal fade" id="myModal-sign" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                	<div class="modal-dialog">
+                    	<div class="modal-content">
+                        	<div class="modal-header">
+                            	<button type="button" class="close modal-close modal-track-close" data-dismiss="modal"><span aria-hidden="true"><img src="images/cross.png" alt="Cross" /></span><span class="sr-only">Close</span></button>
+                                <h4 class="modal-title" id="myModalLabel">New User? Sign Up</h4>
+                         	</div>
+                            <div class="modal-body">
+                            	<div class="row">
+                                    <div class="col-lg-6 left-col">
+                                        <table class="sign-up-table">
+                                        	<tr class="row-tr">
+                                            	<td class="email-td">Email</td>
+                                                <td class="search-td"><input type="text" class="email-search" /></td>
+                                            </tr>
+                                            <tr class="row-tr">
+                                            	<td class="email-td">Password</td>
+                                                <td class="search-td"><input type="password" class="email-search" /></td>
+                                            </tr>
+                                            <tr class="row-tr">
+                                            	<td class="email-td">Repeat</td>
+                                                <td class="search-td"><input type="password" class="email-search" /></td>
+                                            </tr>
+                                            <tr>
+                                            	<td class="email-td"></td>
+                                                <td class="search-td"><a href="#" class="btn btn-danger btn-sm order-btn">Sign Up Now</a></td>
+                                            </tr>
+                                        </table>
+                                        <p><a href="#" class="create-one">Already have an account? Login</a></p>
+                                        <p class="or">OR</p>
+                                    </div>
+                                    <div class="col-lg-6 right-col social-login-btn">
+                                        <h4>Sign in with!</h4>
+                                        <a href="#" class="zocial facebook-button">Sign in with Facebook</a>
+                                        <a href="#" class="zocial googleplus">Sign in with Google+</a>
+                                        <!--<a href="#" class="zocial twitter">Sign in with Twitter</a>
+                                        <a href="#" class="zocial linkedin">Sign in with LinkedIn</a>-->
+                                    </div>
+                                </div>
+                            </div>
+                      	</div>
+                  	</div>
+              	</div>
+                <!-- Modal End -->
                 <!-- Modal -->
                 <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
                 	<div class="modal-dialog">
@@ -129,7 +174,7 @@
                                             </tr>
                                             <tr class="row-tr">
                                             	<td class="email-td">Password</td>
-                                                <td class="search-td"><input type="text" class="email-search" /></td>
+                                                <td class="search-td"><input type="password" class="email-search" /></td>
                                             </tr>
                                             <tr>
                                             	<td class="email-td"></td>
@@ -154,6 +199,7 @@
                 <!-- Modal End -->
             </div>
             <div class="row header-right-bottom">
+            	<!--
             	<div class="col-lg-2">
                 	<div class="styled-select">
                         <div class="btn-group btn-input clearfix">
@@ -168,7 +214,8 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-7">
+                -->
+                <div class="col-lg-9">
                 	<input type="search" class="form-control search-bar" placeholder="search" />
                     <div class="list-styled-select">
                         <div class="btn-group btn-input clearfix">
@@ -184,9 +231,60 @@
                     </div>
                 </div>
                 <div class="col-lg-3">
-                	<p class="pull-left search-click-btn"><a class="btn btn-primary btn-lg" role="button">SEARCH</a></p>
-                    <p class="pull-right"><a class="btn btn-success btn-lg" role="button"><span class="glyphicon glyphicon-shopping-cart"></span>CART</a></p>
+                	<p class="pull-left search-click-btn"><a class="btn btn-primary btn-lg button-main-search" role="button">SEARCH</a></p>
+                    <p class="pull-right"><a class="btn btn-success btn-lg button-cart" role="button" data-toggle="modal" data-target="#myModal-3"><span class="glyphicon glyphicon-shopping-cart"></span>CART</a></p>
                 </div>
+                <!-- Modal -->
+                <div class="modal fade" id="myModal-3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                    <div class="modal-cart-dialog">
+                        <div class="modal-content modal-gift-body">
+                            <div class="modal-body modal-gift-body">
+                                <div class="row">
+                                	<div class="col-lg-12 cart-head">
+                                    	<button type="button" class="close modal-close modal-gift-close modal-cart-close" data-dismiss="modal"><span aria-hidden="true"><img src="images/cross.png" alt="Cross" /></span><span class="sr-only">Close</span></button>
+                                        <h4>CART (1)</h4>
+                                        <table class="table cart-table">
+                                        	<tr>
+                                            	<th>ITEM</th>
+                                                <th>QTY</th>
+                                                <th>PRICE</th>
+                                                <th>DELIVERY DETAILS</th>
+                                                <th>SUBTOTAL</th>
+                                            </tr>
+                                            <tr>
+                                            	<td><img src="images/table-img.png" /><i>Book<br />Ocean and Animals (English)</i></td>
+                                                <td>1</td>
+                                                <td>Rs. 1200</td>
+                                                <td><span>Free</span><br />Delivered in 2-3 business days<br />Faster options may be available during checkout?</td>
+                                                <td>Rs. 1200</td>
+                                            </tr>
+                                        </table>
+                                    </div>
+                                    <div class="col-lg-12 estimated-total">
+                                    	<div class="col-lg-6 pull-left">
+                                        	<form>
+                                            	<input type="text" placeholder="Enter Your Pincode" /><a class="btn btn-primary" role="button">Check</a>
+                                         	</form>
+                                        </div>
+                                        <div class="col-lg-6 pull-right">
+                                        	<p>Estimated Total: Rs. 800</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-12 contineu-shopping">
+                                    	<div class="col-lg-8 pull-left">
+                                        	<a class="btn btn-default" role="button"> < Continue Shopping</a>
+                                            Need Help?<span class="glyphicon glyphicon-phone-alt"></span> 1800 1080 1080 1800 or <a href="#" class="shopping-contact">contact us</a>
+                                        </div>
+                                        <div class="col-lg-4 pull-right">
+                                        	<a class="btn btn-lg" role="button">Place Order</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Modal End -->
             </div>
         </div>
     </div>
