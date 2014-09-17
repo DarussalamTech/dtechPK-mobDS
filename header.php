@@ -276,7 +276,7 @@
                                             Need Help?<span class="glyphicon glyphicon-phone-alt"></span> 1800 1080 1080 1800 or <a href="#" class="shopping-contact">contact us</a>
                                         </div>
                                         <div class="col-lg-4 pull-right">
-                                        	<a class="btn btn-lg" role="button">Place Order</a>
+                                        	<a class="btn btn-lg" role="button" data-toggle="modal" data-target="#myModal-place-order">Place Order</a>
                                         </div>
                                     </div>
                                 </div>
@@ -285,6 +285,77 @@
                     </div>
                 </div>
                 <!-- Modal End -->
+                <!-- Modal Place Order -->
+                <div class="modal fade" id="myModal-place-order" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                	<div class="modal-cart-dialog">
+                        <div class="modal-content modal-gift-body">
+                            <div class="modal-body modal-gift-body">
+                            	<div class="modal-header">
+                                    <button type="button" class="close modal-close modal-track-close" data-dismiss="modal"><span aria-hidden="true"><img src="images/cross.png" alt="Cross" /></span><span class="sr-only">Close</span></button>
+                                    <h4 class="modal-title" id="myModalLabel">Track your Order</h4>
+                                </div>
+                         	</div>
+                            <div class="modal-body">
+                            	<div class="row">
+                                    <div class="col-lg-6 left-col">
+                                        <table class="sign-up-table">
+                                        	<tr class="row-tr">
+                                            	<tdl>Email Address*</td>
+                                            </tr>
+                                            <tr class="row-tr">
+                                                <td><input type="text" class="email-search" /></td>
+                                            </tr>
+                                            <tr class="radio">
+                                            	<td><input id="male" type="radio" name="gender" value="male"checked><label for="male">I have a flipkart account</label></td>
+                                            </tr>
+                                            <tr class="radio">
+                                            	<td><input id="female" type="radio" name="gender" value="female"><label for="female">I am a new customer (Sign me up now)</label></td>
+                                            </tr>
+                                            <tr class="row-tr">
+                                            	<td class="email-td red">Password*</td>
+                                            </tr>
+                                            <tr class="row-tr">
+                                                <td><input type="password" class="email-search red-border" /></td>
+                                            </tr>
+                                            <tr>
+                                            	<td><a href="#" class="create-one">Already have an account? Login</a></td>
+                                            </tr>
+                                            <tr class="row-tr">
+                                            	<td class="email-td">Confirm Password*</td>
+                                            </tr>
+                                            <tr class="row-tr">
+                                                <td><input type="password" class="email-search" /></td>
+                                            </tr>
+                                            <tr class="row-tr">
+                                                <td><a class="btn btn-lg contineu-place-order" role="button">Continue</a></td>
+                                            </tr>
+                                        </table>
+                                    </div>
+                                    <div class="col-lg-6 right-col social-login-btn">
+                                        <h4><b>Sign in with your social account</b></h4>
+                                        <p>no post on your behalf, promise!</p>
+                                        <a href="#" class="zocial facebook-button">Sign in with Facebook</a>
+                                        <a href="#" class="zocial googleplus">Sign in with Google+</a>
+                                        <!--<a href="#" class="zocial twitter">Sign in with Twitter</a>
+                                        <a href="#" class="zocial linkedin">Sign in with LinkedIn</a>-->
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                            	<div class="col-lg-12 option-btns">
+                                    <p><b>Delivery Address</b></p>
+                                </div>
+                                <div class="col-lg-12 option-btns">
+                                    <p><b>Order Summary</b><span>1 item</span><span>Total: Rs. 786</span></p>
+                                </div>
+                                <div class="col-lg-12 option-btns">
+                                    <p><b>Payment Method</b></p>
+                                </div>
+                       		</div>
+                      	</div>
+                  	</div>
+              	</div>
+                <!-- Modal place Order End -->
             </div>
         </div>
     </div>
