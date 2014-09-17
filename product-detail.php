@@ -79,7 +79,7 @@
                 <p><b class="rs-text">Rs.</b>1295 PKR</p>
                 <p><b>Shipping:</b> Available</p>
                 <a href="#" class="btn btn-lg btn-default read-sample-btn">Read Sample</a>
-                <a href="#" class="btn btn-lg btn-warning shop-now-btn">Shop Now</a>
+                <a href="#" class="btn btn-lg btn-success shop-now-btn">Shop Now</a>
             </div>
         </div>
     </div>
