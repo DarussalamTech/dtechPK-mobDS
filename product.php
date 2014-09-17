@@ -49,6 +49,15 @@
         <div class="product_right_part">
         	<div class="product_main_banner">
             	<img src="images/product_main_banner.jpg" alt="banner">
+                <div class="image_hover_thumbnail">
+                	<ul>
+                    	<li><a href="">thumbnail 1</a></li>
+                        <li><a href="">thumbnail 2</a></li>
+                        <li><a href="">thumbnail 3</a></li>
+                        <li><a href="">thumbnail 4</a></li>
+                        <li><a href="">thumbnail 5</a></li>
+                    </ul>
+                </div>
             </div>
             <div class="book_detail_ecom">
             	<h2>Collection/Pack</h2>
