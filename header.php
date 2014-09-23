@@ -1,6 +1,7 @@
 <link rel="stylesheet" type="text/css" href="css/zocial.css" />
 <link href='http://fonts.googleapis.com/css?family=Pompiere' rel='stylesheet' type='text/css'>
 <script src="https://apis.google.com/js/platform.js" async defer></script>
+<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
 
 <div class="facebook-like-btn">
     <div class="container">
@@ -108,7 +109,7 @@
                     </div>
                 </div>
                 <div class="col-lg-4 sign-in-out-btn">
-                	<p><a class="btn btn-danger" role="button" data-toggle="modal" data-target="#myModal-sign">SIGN UP</a> <a class="btn btn-danger" role="button" data-toggle="modal" data-target="#myModal">SIGN IN / MY ACCOUNT</a></p>
+                	<p><a class="btn btn-danger" role="button" data-toggle="modal" data-target="#myModal-sign">SIGN UP</a> <a class="btn btn-danger" role="button" data-toggle="modal" data-target="#myModal">SIGN IN</a></p>
                 </div>
                 <!-- Modal Sign out -->
                 <div class="modal fade" id="myModal-sign" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
@@ -232,7 +233,7 @@
                 </div>
                 <div class="col-lg-3">
                 	<p class="pull-left search-click-btn"><a class="btn btn-primary btn-lg button-main-search" role="button">SEARCH</a></p>
-                    <p class="pull-right"><a class="btn btn-success btn-lg button-cart" role="button" data-toggle="modal" data-target="#myModal-3"><span class="glyphicon glyphicon-shopping-cart"></span>CART</a></p>
+                    <p class="pull-right"><a class="btn btn-success btn-lg button-cart" role="button" data-toggle="modal" data-target="#myModal-delivery"><span class="glyphicon glyphicon-shopping-cart"></span>CART</a></p>
                 </div>
                 <!-- Modal -->
                 <div class="modal fade" id="myModal-3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
@@ -262,21 +263,10 @@
                                     </div>
                                     <div class="col-lg-12 estimated-total">
                                     	<div class="col-lg-6 pull-left">
-                                        	<form>
-                                            	<input type="text" placeholder="Enter Your Pincode" /><a class="btn btn-primary" role="button">Check</a>
-                                         	</form>
+                                        	<a class="btn btn-lg contineu-order-btn" data-dismiss="modal" data-target="#myModal-payment-method" data-toggle="modal" role="button">Continue</a>
                                         </div>
                                         <div class="col-lg-6 pull-right">
                                         	<p>Estimated Total: Rs. 800</p>
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-12 contineu-shopping">
-                                    	<div class="col-lg-8 pull-left">
-                                        	<a class="btn btn-default" role="button"> < Continue Shopping</a>
-                                            Need Help?<span class="glyphicon glyphicon-phone-alt"></span> 1800 1080 1080 1800 or <a href="#" class="shopping-contact">contact us</a>
-                                        </div>
-                                        <div class="col-lg-4 pull-right">
-                                        	<a class="btn btn-lg" role="button" data-toggle="modal" data-target="#myModal-place-order">Place Order</a>
                                         </div>
                                     </div>
                                 </div>
@@ -285,66 +275,61 @@
                     </div>
                 </div>
                 <!-- Modal End -->
-                <!-- Modal Place Order -->
-                <div class="modal fade" id="myModal-place-order" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                <!-- Modal Delivery Order -->
+                <div class="modal fade" id="myModal-delivery" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                	<button type="button" class="close modal-close deliver-close" data-dismiss="modal"><span aria-hidden="true" class="glyphicon glyphicon-plus-sign angel-rotate"></span><span class="sr-only">Close</span></button>
                 	<div class="modal-cart-dialog">
                         <div class="modal-content modal-gift-body">
                             <div class="modal-body modal-gift-body">
-                            	<div class="modal-header">
-                                    <button type="button" class="close modal-close modal-track-close" data-dismiss="modal"><span aria-hidden="true"><img src="images/cross.png" alt="Cross" /></span><span class="sr-only">Close</span></button>
-                                    <h4 class="modal-title" id="myModalLabel">Track your Order</h4>
+                            	<div class="panel panel-default panel-order-group">
+                                    <div class="panel-heading delivery-btns row">
+                                            <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" class="panel-title"><span><i class="glyphicon glyphicon-ok-circle"></i><b>SIGN IN</b></span></a>
+                                    </div>
+                                    <div id="collapseOne" class="panel-collapse collapse">
+                                        <div class="panel-body">
+                                            <p>Logged in as <b>tahir@darussalampk.com.</b></p>
+                                            <a class="btn btn-danger" role="button">Continue</a>
+                                            <span>Not you?</span> <a href="#" role="button" data-toggle="modal" data-target="#myModal-place-order" data-dismiss="modal">Sign out</a>
+                                        </div>
+                                    </div>
                                 </div>
+                         	</div>
+                            <div class="col-lg-12 option-btns">
+                            	<p><b>Delivery Address</b></p>
                          	</div>
                             <div class="modal-body">
                             	<div class="row">
-                                    <div class="col-lg-6 left-col">
-                                        <table class="sign-up-table">
-                                        	<tr class="row-tr">
-                                            	<tdl>Email Address*</td>
+                                    <div class="col-lg-12 delivery-col">
+                                        <table class="delivery-table">
+                                        	<tr class="delivery-tr">
+                                            	<td class="left-delivery">Name</td>
+                                                <td class="right-delivery"><input type="text" class="email-search" /></td>
                                             </tr>
-                                            <tr class="row-tr">
-                                                <td><input type="text" class="email-search" /></td>
+                                            <tr class="delivery-tr">
+                                                <td class="left-delivery">Pincode</td>
+                                                <td class="right-delivery"><input type="text" class="email-search" /></td>
                                             </tr>
-                                            <tr class="radio">
-                                            	<td><input id="male" type="radio" name="gender" value="male"checked><label for="male">I have a flipkart account</label></td>
+                                            <tr class="delivery-tr">
+                                                <td class="left-delivery">Address</td>
+                                                <td class="right-delivery"><input type="text" class="email-search" /></td>
                                             </tr>
-                                            <tr class="radio">
-                                            	<td><input id="female" type="radio" name="gender" value="female"><label for="female">I am a new customer (Sign me up now)</label></td>
+                                            <tr class="delivery-tr">
+                                                <td class="left-delivery">Country</td>
+                                                <td class="right-delivery"><b>Pakistan</b> (Service available only in Pakistan)</td>
                                             </tr>
-                                            <tr class="row-tr">
-                                            	<td class="email-td red">Password*</td>
+                                            <tr class="delivery-tr">
+                                                <td class="left-delivery">Phone</td>
+                                                <td class="right-delivery"><input type="text" class="email-search" /></td>
                                             </tr>
-                                            <tr class="row-tr">
-                                                <td><input type="password" class="email-search red-border" /></td>
-                                            </tr>
-                                            <tr>
-                                            	<td><a href="#" class="create-one">Already have an account? Login</a></td>
-                                            </tr>
-                                            <tr class="row-tr">
-                                            	<td class="email-td">Confirm Password*</td>
-                                            </tr>
-                                            <tr class="row-tr">
-                                                <td><input type="password" class="email-search" /></td>
-                                            </tr>
-                                            <tr class="row-tr">
-                                                <td><a class="btn btn-lg contineu-place-order" role="button">Continue</a></td>
+                                            <tr class="delivery-tr">
+                                                <td class="left-delivery text-hidden">A</td>
+                                                <td class="right-delivery"><a class="btn btn-lg save-and-contineu" role="button" data-toggle="modal" data-target="#myModal-order-summary" data-dismiss="modal">Save &amp; Continue</a></td>
                                             </tr>
                                         </table>
-                                    </div>
-                                    <div class="col-lg-6 right-col social-login-btn">
-                                        <h4><b>Sign in with your social account</b></h4>
-                                        <p>no post on your behalf, promise!</p>
-                                        <a href="#" class="zocial facebook-button">Sign in with Facebook</a>
-                                        <a href="#" class="zocial googleplus">Sign in with Google+</a>
-                                        <!--<a href="#" class="zocial twitter">Sign in with Twitter</a>
-                                        <a href="#" class="zocial linkedin">Sign in with LinkedIn</a>-->
                                     </div>
                                 </div>
                             </div>
                             <div class="row">
-                            	<div class="col-lg-12 option-btns">
-                                    <p><b>Delivery Address</b></p>
-                                </div>
                                 <div class="col-lg-12 option-btns">
                                     <p><b>Order Summary</b><span>1 item</span><span>Total: Rs. 786</span></p>
                                 </div>
@@ -356,6 +341,340 @@
                   	</div>
               	</div>
                 <!-- Modal place Order End -->
+                <!-- Modal Order Summary -->
+                <div class="modal fade" id="myModal-order-summary" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                	<button type="button" class="close modal-close deliver-close" data-dismiss="modal"><span aria-hidden="true" class="glyphicon glyphicon-plus-sign angel-rotate"></span><span class="sr-only">Close</span></button>
+                	<div class="modal-cart-dialog">
+                        <div class="modal-content modal-gift-body">
+                            <div class="modal-body modal-gift-body">
+                            	<div class="bs-example">
+                                	<div class="panel-group panel-order-group" id="accordion">
+                                        <div class="panel panel-default panel-order-group">
+                                            <div class="panel-heading delivery-btns row">
+                                                <a data-toggle="collapse" href="#collapseTwo"><span><i class="glyphicon glyphicon-ok-circle"></i><b>SIGN IN</b></span></a>
+                                            </div>
+                                            <div id="collapseTwo" class="panel-collapse collapse">
+                                                <div class="panel-body">
+                                                    <p>Logged in as <b>tahir@darussalampk.com.</b></p>
+                                                    <a class="btn btn-danger" role="button">Continue</a>
+                                                    <span>Not you?</span> <a href="#" role="button" data-toggle="modal" data-target="#myModal-place-order" data-dismiss="modal">Sign out</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="panel panel-default panel-order-group">
+                                            <div class="panel-heading delivery-btns row">
+                                                <a data-toggle="collapse" data-parent="#accordion" href="#collapseThree"><span><i class="glyphicon glyphicon-ok-circle"></i><b>DELIVERY ADDRESS</b></span></a>
+                                            </div>
+                                            <div id="collapseThree" class="panel-collapse collapse">
+                                                <div class="panel-body">
+                                                	<div class="row">
+                                                        <div class="col-lg-12 delivery-col">
+                                                            <table class="delivery-table">
+                                                                <tr class="delivery-tr">
+                                                                    <td class="left-delivery">Name</td>
+                                                                    <td class="right-delivery">tahir javaid</td>
+                                                                </tr>
+                                                                <tr class="delivery-tr">
+                                                                    <td class="left-delivery">Address</td>
+                                                                    <td class="right-delivery">near jail road, 301001, alwar, Rajasthan</td>
+                                                                </tr>
+                                                                <tr class="delivery-tr">
+                                                                    <td class="left-delivery">Country</td>
+                                                                    <td class="right-delivery"><b>Pakistan</b> (Service available only in Pakistan)</td>
+                                                                </tr>
+                                                                <tr class="delivery-tr">
+                                                                    <td class="left-delivery">Phone</td>
+                                                                    <td class="right-delivery">2692245633</td>
+                                                                </tr>
+                                                                <tr class="delivery-tr">
+                                                                    <td class="left-delivery text-hidden">A</td>
+                                                                    <td class="right-delivery"><a class="btn btn-xs save-and-contineu" role="button" data-toggle="modal" data-target="#myModal-delivery" data-dismiss="modal">Continue</a> Or? <a href="#">Edit</a></td>
+                                                                </tr>
+                                                            </table>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                  	</div>
+                               	</div>
+                         	</div>
+                            <div class="col-lg-12 option-btns">
+                            	<p><b>ORDER SUMMARY</b></p>
+                         	</div>
+                            <div class="modal-body">
+                            	<div class="row">
+                                	<div class="col-lg-12 cart-head">
+                                        <table class="table cart-table">
+                                        	<tr>
+                                            	<th>ITEM</th>
+                                                <th>QTY</th>
+                                                <th>PRICE</th>
+                                                <th>DELIVERY DETAILS</th>
+                                                <th>SUBTOTAL</th>
+                                            </tr>
+                                            <tr>
+                                            	<td><img src="images/table-img.png" /><i>Book<br />Ocean and Animals (English)</i></td>
+                                                <td>1</td>
+                                                <td>Rs. 1200</td>
+                                                <td><span>Free</span><br />Delivered in 2-3 business days<br />Faster options may be available during checkout?</td>
+                                                <td>Rs. 1200</td>
+                                                <td><a href="#" class="glyphicon glyphicon-remove-circle"></a></td>
+                                            </tr>
+                                        </table>
+                                    </div>
+                                    <div class="col-lg-12 estimated-total">
+                                    	<div class="col-lg-6 pull-left">
+                                        	<a class="btn btn-lg contineu-order-btn" role="button" data-toggle="modal" data-target="#myModal-main-payment-method" data-dismiss="modal">Continue</a>
+                                        </div>
+                                        <div class="col-lg-6 pull-right">
+                                        	<p>Estimated Total: Rs. 800</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-12 option-btns">
+                                    <p><b>Payment Method</b></p>
+                                </div>
+                       		</div>
+                      	</div>
+                  	</div>
+              	</div>
+                <!-- Modal place Order End -->
+                <!-- Modal Payment Method -->
+                <div class="modal fade" id="myModal-payment-method" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                	<button type="button" class="close modal-close deliver-close" data-dismiss="modal"><span aria-hidden="true" class="glyphicon glyphicon-plus-sign angel-rotate"></span><span class="sr-only">Close</span></button>
+                	<div class="modal-cart-dialog">
+                        <div class="modal-content modal-gift-body">
+                            <div class="modal-body modal-gift-body">
+                            	<div class="bs-example">
+                                	<div class="panel-group panel-order-group" id="accordion">
+                                        <div class="panel panel-default panel-order-group">
+                                            <div class="panel-heading delivery-btns row">
+                                                <a data-toggle="collapse" href="#collapseTwo"><span><i class="glyphicon glyphicon-ok-circle"></i><b>SIGN IN</b></span></a>
+                                            </div>
+                                            <div id="collapseTwo" class="panel-collapse collapse">
+                                                <div class="panel-body">
+                                                    <p>Logged in as <b>tahir@darussalampk.com.</b></p>
+                                                    <a class="btn btn-danger" role="button">Continue</a>
+                                                    <span>Not you?</span> <a href="#" role="button" data-toggle="modal" data-target="#myModal-place-order" data-dismiss="modal">Sign out</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="panel panel-default panel-order-group">
+                                            <div class="panel-heading delivery-btns row">
+                                                <a data-toggle="collapse" data-parent="#accordion" href="#collapseThree"><span><i class="glyphicon glyphicon-ok-circle"></i><b>DELIVERY ADDRESS</b></span></a>
+                                            </div>
+                                            <div id="collapseThree" class="panel-collapse collapse">
+                                                <div class="panel-body">
+                                                	<div class="row">
+                                                        <div class="col-lg-12 delivery-col">
+                                                            <table class="delivery-table">
+                                                                <tr class="delivery-tr">
+                                                                    <td class="left-delivery">Name</td>
+                                                                    <td class="right-delivery">tahir javaid</td>
+                                                                </tr>
+                                                                <tr class="delivery-tr">
+                                                                    <td class="left-delivery">Address</td>
+                                                                    <td class="right-delivery">near jail road, 301001, alwar, Rajasthan</td>
+                                                                </tr>
+                                                                <tr class="delivery-tr">
+                                                                    <td class="left-delivery">Country</td>
+                                                                    <td class="right-delivery"><b>Pakistan</b> (Service available only in Pakistan)</td>
+                                                                </tr>
+                                                                <tr class="delivery-tr">
+                                                                    <td class="left-delivery">Phone</td>
+                                                                    <td class="right-delivery">2692245633</td>
+                                                                </tr>
+                                                                <tr class="delivery-tr">
+                                                                    <td class="left-delivery text-hidden">A</td>
+                                                                    <td class="right-delivery"><a class="btn btn-xs save-and-contineu" role="button" data-toggle="modal" data-target="#myModal-delivery" data-dismiss="modal">Continue</a> Or? <a href="#">Edit</a></td>
+                                                                </tr>
+                                                            </table>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                  	</div>
+                               	</div>
+                         	</div>
+                            <div class="col-lg-12 option-btns">
+                            	<p><b>ORDER SUMMARY</b></p>
+                         	</div>
+                            <div class="modal-body">
+                            	<div class="row">
+                                	<div class="col-lg-12 cart-head">
+                                        <table class="table cart-table">
+                                        	<tr>
+                                            	<th>ITEM</th>
+                                                <th>QTY</th>
+                                                <th>PRICE</th>
+                                                <th>DELIVERY DETAILS</th>
+                                                <th>SUBTOTAL</th>
+                                            </tr>
+                                            <tr>
+                                            	<td><img src="images/table-img.png" /><i>Book<br />Ocean and Animals (English)</i></td>
+                                                <td>1</td>
+                                                <td>Rs. 1200</td>
+                                                <td><span>Free</span><br />Delivered in 2-3 business days<br />Faster options may be available during checkout?</td>
+                                                <td>Rs. 1200</td>
+                                                <td><a href="#" class="glyphicon glyphicon-remove-circle"></a></td>
+                                            </tr>
+                                        </table>
+                                    </div>
+                                    <div class="col-lg-12 estimated-total">
+                                    	<div class="col-lg-6 pull-left">
+                                        	<a class="btn btn-lg contineu-order-btn" role="button" data-toggle="modal" data-target="#myModal-payment-method" data-dismiss="modal">Continue</a>
+                                        </div>
+                                        <div class="col-lg-6 pull-right">
+                                        	<p>Estimated Total: Rs. 800</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-12 option-btns">
+                                    <p><b>Payment Method</b></p>
+                                </div>
+                       		</div>
+                      	</div>
+                  	</div>
+              	</div>
+                <!-- Modal Payment Method End -->
+                <!-- Modal Order Summary -->
+                <div class="modal fade" id="myModal-main-payment-method" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                	<button type="button" class="close modal-close deliver-close" data-dismiss="modal"><span aria-hidden="true" class="glyphicon glyphicon-plus-sign angel-rotate"></span><span class="sr-only">Close</span></button>
+                	<div class="modal-cart-dialog">
+                        <div class="modal-content modal-gift-body">
+                            <div class="modal-body modal-gift-body">
+                            	<div class="bs-example">
+                                	<div class="panel-group panel-order-group" id="accordion">
+                                        <div class="panel panel-default panel-order-group">
+                                            <div class="panel-heading delivery-btns row">
+                                                <a data-toggle="collapse" href="#collapseTFour"><span><i class="glyphicon glyphicon-ok-circle"></i><b>SIGN IN</b></span></a>
+                                            </div>
+                                            <div id="collapseTFour" class="panel-collapse collapse">
+                                                <div class="panel-body">
+                                                    <p>Logged in as <b>tahir@darussalampk.com.</b></p>
+                                                    <a class="btn btn-danger" role="button">Continue</a>
+                                                    <span>Not you?</span> <a href="#" role="button" data-toggle="modal" data-target="#myModal-place-order" data-dismiss="modal">Sign out</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="panel panel-default panel-order-group">
+                                            <div class="panel-heading delivery-btns row">
+                                                <a data-toggle="collapse" data-parent="#accordion" href="#collapseTFive"><span><i class="glyphicon glyphicon-ok-circle"></i><b>DELIVERY ADDRESS</b></span></a>
+                                            </div>
+                                            <div id="collapseTFive" class="panel-collapse collapse">
+                                                <div class="panel-body">
+                                                	<div class="row">
+                                                        <div class="col-lg-12 delivery-col">
+                                                            <table class="delivery-table">
+                                                                <tr class="delivery-tr">
+                                                                    <td class="left-delivery">Name</td>
+                                                                    <td class="right-delivery">tahir javaid</td>
+                                                                </tr>
+                                                                <tr class="delivery-tr">
+                                                                    <td class="left-delivery">Address</td>
+                                                                    <td class="right-delivery">near jail road, 301001, alwar, Rajasthan</td>
+                                                                </tr>
+                                                                <tr class="delivery-tr">
+                                                                    <td class="left-delivery">Country</td>
+                                                                    <td class="right-delivery"><b>Pakistan</b> (Service available only in Pakistan)</td>
+                                                                </tr>
+                                                                <tr class="delivery-tr">
+                                                                    <td class="left-delivery">Phone</td>
+                                                                    <td class="right-delivery">2692245633</td>
+                                                                </tr>
+                                                                <tr class="delivery-tr">
+                                                                    <td class="left-delivery text-hidden">A</td>
+                                                                    <td class="right-delivery"><a class="btn btn-xs save-and-contineu" role="button" data-toggle="modal" data-target="#myModal-delivery" data-dismiss="modal">Continue</a> Or? <a href="#">Edit</a></td>
+                                                                </tr>
+                                                            </table>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="panel panel-default panel-order-group">
+                                            <div class="panel-heading delivery-btns row">
+                                                <a data-toggle="collapse" data-parent="#accordion" href="#collapseTSix"><span><i class="glyphicon glyphicon-ok-circle"></i><b>ORDER SUMMARY</b></span></a>
+                                            </div>
+                                            <div id="collapseTSix" class="panel-collapse collapse">
+                                                <div class="panel-body">
+                                                	<div class="row">
+                                                        <div class="col-lg-12 cart-head">
+                                                            <table class="table cart-table">
+                                                                <tr>
+                                                                    <th>ITEM</th>
+                                                                    <th>QTY</th>
+                                                                    <th>PRICE</th>
+                                                                    <th>DELIVERY DETAILS</th>
+                                                                    <th>SUBTOTAL</th>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td><img src="images/table-img.png" /><i>Book<br />Ocean and Animals (English)</i></td>
+                                                                    <td>1</td>
+                                                                    <td>Rs. 1200</td>
+                                                                    <td><span>Free</span><br />Delivered in 2-3 business days<br />Faster options may be available during checkout?</td>
+                                                                    <td>Rs. 1200</td>
+                                                                    <td><a href="#" class="glyphicon glyphicon-remove-circle"></a></td>
+                                                                </tr>
+                                                            </table>
+                                                        </div>
+                                                        <div class="col-lg-12 estimated-total">
+                                                            <div class="col-lg-6 pull-left">
+                                                                <a class="btn btn-lg contineu-order-btn" role="button" data-toggle="modal" data-target="#myModal-payment-method" data-dismiss="modal">Continue</a>
+                                                            </div>
+                                                            <div class="col-lg-6 pull-right">
+                                                                <p>Estimated Total: Rs. 800</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                  	</div>
+                               	</div>
+                         	</div>
+                            <div class="col-lg-12 option-btns">
+                            	<p><b>PAYMENT METHOD</b></p>
+                         	</div>
+                            <div class="modal-body">
+                            	<div class="bs-example">
+                                	<div class="row">
+                                        <div class="col-lg-3">
+                                            <ul class="nav nav-tabs payment-nav">
+                                                <li class="active"><a data-toggle="tab" href="#CashDelivery">COD</a></li>
+                                                <li><a data-toggle="tab" href="#BankTransfer">Bank Transfer</a></li>
+                                                <li><a data-toggle="tab" href="#CreditCard">Credit Card</a></li>
+                                            </ul>
+                                        </div>
+                                        <div class="col-lg-9">
+                                            <div class="tab-content">
+                                                <div id="CashDelivery" class="tab-pane fade in active">
+                                                    <h3>Cash on Delivery</h3>
+                                                    <p>Aliquip placeat salvia cillum iphone. Seitan aliquip quis cardigan american apparel, butcher voluptate nisi qui. Raw denim you probably haven't heard of them jean shorts Austin. Nesciunt tofu stumptown aliqua, retro synth master cleanse. Mustache cliche tempor, williamsburg carles vegan helvetica. Reprehenderit butcher retro keffiyeh dreamcatcher synth.</p>
+                                                </div>
+                                                <div id="BankTransfer" class="tab-pane fade">
+                                                    <h3>Bank Transfer</h3>
+                                                    <p>Vestibulum nec erat eu nulla rhoncus fringilla ut non neque. Vivamus nibh urna, ornare id gravida ut, mollis a magna. Aliquam porttitor condimentum nisi, eu viverra ipsum porta ut. Nam hendrerit bibendum turpis, sed molestie mi fermentum id. Aenean volutpat velit sem. Sed consequat ante in rutrum convallis. Nunc facilisis leo at faucibus adipiscing.</p>
+                                                </div>
+                                                <div id="CreditCard" class="tab-pane fade">
+                                                    <h3>Credit Card</h3>
+                                                    <p>WInteger convallis, nulla in sollicitudin placerat, ligula enim auctor lectus, in mollis diam dolor at lorem. Sed bibendum nibh sit amet dictum feugiat. Vivamus arcu sem, cursus a feugiat ut, iaculis at erat. Donec vehicula at ligula vitae venenatis. Sed nunc nulla, vehicula non porttitor in, pharetra et dolor. Fusce nec velit velit. Pellentesque consectetur eros.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                      	</div>
+                  	</div>
+              	</div>
+                <!-- Modal Payment Method End -->
             </div>
         </div>
     </div>

@@ -237,7 +237,7 @@ body { background:#FFF; font-family: 'MyriadPro-Regular'; }
 
 .cart-head h4 { color:#000; font-weight:bold; font-size:16px; border-right:1px solid #ddc37f; border-left:1px solid #ddc37f; border-top:1px solid #ddc37f; padding: 10px 15px; margin: 10px 0 0 35px; max-width:100px; }
 
-.modal-cart-dialog { width:930px !important; margin: 15% auto 0 auto !important; }
+.modal-cart-dialog { width:930px !important; margin: 7% auto 0 auto !important; }
 
 .modal-cart-close { top:10px !important; }
 
@@ -314,3 +314,35 @@ body { background:#FFF; font-family: 'MyriadPro-Regular'; }
 .red { color:#e95454 !important; }
 
 .red-border { border: 1px solid #e95454 !important; }
+
+.delivery-btns { padding: 0; margin: 0; border-top:3px solid #c5c5c5 !important; -moz-border-bottom-colors: none !important; -moz-border-left-colors: none !important; -moz-border-right-colors: none !important; -moz-border-top-colors: none !important; background-color: #ddc37f !important; background-image: linear-gradient(#4da54d, #4da54d 0%, #398e39) !important; background-repeat: no-repeat !important; box-shadow: 0 1px 0 rgba(255, 255, 255, 0.2) inset, 0 1px 2px rgba(0, 0, 0, 0.05) !important; transition: all 0.1s linear 0s !important; }
+
+.delivery-btns span { padding: 10px 0px 5px 20px; margin: 0; color:#ffffff; font-size:19px; float:left }
+
+.delivery-btns span b { padding-left:8px; }
+
+.deliver-close { margin-right:30px; color:#FFF !important; margin-top:20px !important; border: none !important; text-shadow:none !important; font-size:25px !important; }
+
+.panel-order-group { border:none !important; margin-bottom: 0 !important; margin-top: 0 !important; border-radius: 0 !important; box-shadow: none !important; }
+
+.angel-rotate { -ms-transform: rotate(45deg); /* IE 9 */ -webkit-transform: rotate(45deg); /* Chrome, Safari, Opera */ transform: rotate(45deg); font-size:30px !important; }
+
+.left-delivery { float: left; padding-right: 30px; text-align: right; width: 15% !important; }
+
+.right-delivery { width:40% !important; float:left; }
+
+.save-and-contineu { background: #ddc37f; border-radius:0 !important; font-weight:bold; color:#000; font-size:20px; margin: 0px 0; z-index: }
+
+.delivery-tr { margin: 10px 0; }
+
+.delivery-tr { width:100%; float:left; }
+
+.text-hidden { visibility:hidden; }
+
+.contineu-order-btn { background: #ddc37f; border-radius:0 !important; font-weight:bold; color:#000; font-size:20px; }
+
+.payment-nav { border-bottom: none !important; }
+
+.payment-nav li { display:block !important; width:100% !important; }
+
+.payment-nav li a:hover { background:none !important; border:none !important; }

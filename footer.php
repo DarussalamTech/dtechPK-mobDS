@@ -50,8 +50,8 @@
 	<div class="bottom-footer">
     	<div class="col-lg-12">
         	<p>
-            	<a href="#">About Us</a>
-                <a href="#">FAQ's</a>
+            	<a href="about.php">About Us</a>
+                <a href="faq.php">FAQ's</a>
                 <a href="#">Terms &amp; Conditions</a>
                 <a href="#">Payment Methods</a>
                 <a href="#">Shipment</a>
