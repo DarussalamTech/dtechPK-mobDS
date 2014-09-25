@@ -289,7 +289,7 @@
                                         <div class="panel-body">
                                             <p>Logged in as <b>tahir@darussalampk.com.</b></p>
                                             <a class="btn btn-danger" role="button">Continue</a>
-                                            <span>Not you?</span> <a href="#" role="button" data-toggle="modal" data-target="#myModal-place-order" data-dismiss="modal">Sign out</a>
+                                            <span>Not you?</span> <a href="#" role="button" data-toggle="modal" data-target="#myModal-sign-out" data-dismiss="modal">Sign out</a>
                                         </div>
                                     </div>
                                 </div>
@@ -341,6 +341,57 @@
                   	</div>
               	</div>
                 <!-- Modal place Order End -->
+                <!-- Modal Sign Out -->
+                <div class="modal fade" id="myModal-sign-out" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                	<button type="button" class="close modal-close deliver-close" data-dismiss="modal"><span aria-hidden="true" class="glyphicon glyphicon-plus-sign angel-rotate"></span><span class="sr-only">Close</span></button>
+                	<div class="modal-cart-dialog">
+                        <div class="modal-content modal-gift-body">
+                            <div class="col-lg-12 option-btns">
+                            	<p><b>Sign Out</b></p>
+                         	</div>
+                            <div class="modal-body">
+                            	<div class="row">
+                                    <div class="col-lg-6 delivery-col">
+                                        <table class="delivery-table">
+                                        	<tr class="sign-out-tr">
+                                            	<td class="sign-out-tr">Email Address*</td>
+                                                <td class="sign-out-tr"><input type="text" class="email-search" /></td>
+                                            </tr>
+                                            <tr class="radio sign-out-tr">
+                                            	<td class="sign-out-tr"><input id="male" type="radio" name="gender" value="male"><label for="male">I have a flipkart account</label></td>
+                                                <td class="sign-out-tr"><input id="female" type="radio" name="gender" value="female"checked><label for="female">I am a new customer (Sign me up now)</label></td>
+                                            </tr>
+                                            <tr class="delivery-tr">
+                                                <td class="sign-out-tr red">Password*</td>
+                                                <td class="sign-out-tr"><input type="text" class="email-search red-border" /></td>
+                                                <td>Already have an account? Login</td>
+                                            </tr>
+                                            <tr class="sign-out-tr">
+                                                <td class="sign-out-tr">Confirm Password*</td>
+                                                <td class="sign-out-tr"><input type="text" class="email-search" /></td>
+                                            </tr>
+                                            <tr class="sign-out-tr">
+                                                <td class="sign-out-tr"><a class="btn btn-lg save-and-contineu contineu-only" role="button" data-toggle="modal" data-target="#myModal-delivery" data-dismiss="modal">Continue</a></td>
+                                            </tr>
+                                        </table>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-12 option-btns">
+                            	<p><b>Delivery Address</b></p>
+                         	</div>
+                            <div class="row">
+                                <div class="col-lg-12 option-btns">
+                                    <p><b>Order Summary</b><span>1 item</span><span>Total: Rs. 786</span></p>
+                                </div>
+                                <div class="col-lg-12 option-btns">
+                                    <p><b>Payment Method</b></p>
+                                </div>
+                       		</div>
+                      	</div>
+                  	</div>
+              	</div>
+                <!-- Modal Sign Out End -->
                 <!-- Modal Order Summary -->
                 <div class="modal fade" id="myModal-order-summary" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
                 	<button type="button" class="close modal-close deliver-close" data-dismiss="modal"><span aria-hidden="true" class="glyphicon glyphicon-plus-sign angel-rotate"></span><span class="sr-only">Close</span></button>
@@ -351,13 +402,13 @@
                                 	<div class="panel-group panel-order-group" id="accordion">
                                         <div class="panel panel-default panel-order-group">
                                             <div class="panel-heading delivery-btns row">
-                                                <a data-toggle="collapse" href="#collapseTwo"><span><i class="glyphicon glyphicon-ok-circle"></i><b>SIGN IN</b></span></a>
+                                                <a data-toggle="collapse" href="#collapseTwo" data-parent="#accordion"><span><i class="glyphicon glyphicon-ok-circle"></i><b>SIGN IN</b></span></a>
                                             </div>
                                             <div id="collapseTwo" class="panel-collapse collapse">
                                                 <div class="panel-body">
                                                     <p>Logged in as <b>tahir@darussalampk.com.</b></p>
                                                     <a class="btn btn-danger" role="button">Continue</a>
-                                                    <span>Not you?</span> <a href="#" role="button" data-toggle="modal" data-target="#myModal-place-order" data-dismiss="modal">Sign out</a>
+                                                    <span>Not you?</span> <a href="#" role="button" data-toggle="modal" data-target="#myModal-sign-out" data-dismiss="modal">Sign out</a>
                                                 </div>
                                             </div>
                                         </div>
@@ -458,7 +509,7 @@
                                                 <div class="panel-body">
                                                     <p>Logged in as <b>tahir@darussalampk.com.</b></p>
                                                     <a class="btn btn-danger" role="button">Continue</a>
-                                                    <span>Not you?</span> <a href="#" role="button" data-toggle="modal" data-target="#myModal-place-order" data-dismiss="modal">Sign out</a>
+                                                    <span>Not you?</span> <a href="#" role="button" data-toggle="modal" data-target="#myModal-sign-out" data-dismiss="modal">Sign out</a>
                                                 </div>
                                             </div>
                                         </div>
@@ -550,22 +601,22 @@
                         <div class="modal-content modal-gift-body">
                             <div class="modal-body modal-gift-body">
                             	<div class="bs-example">
-                                	<div class="panel-group panel-order-group" id="accordion">
+                                	<div class="panel-group panel-order-group" id="accordion1">
                                         <div class="panel panel-default panel-order-group">
                                             <div class="panel-heading delivery-btns row">
-                                                <a data-toggle="collapse" href="#collapseTFour"><span><i class="glyphicon glyphicon-ok-circle"></i><b>SIGN IN</b></span></a>
+                                                <a data-toggle="collapse" href="#collapseTFour" data-parent="#accordion1"><span><i class="glyphicon glyphicon-ok-circle"></i><b>SIGN IN</b></span></a>
                                             </div>
                                             <div id="collapseTFour" class="panel-collapse collapse">
                                                 <div class="panel-body">
                                                     <p>Logged in as <b>tahir@darussalampk.com.</b></p>
                                                     <a class="btn btn-danger" role="button">Continue</a>
-                                                    <span>Not you?</span> <a href="#" role="button" data-toggle="modal" data-target="#myModal-place-order" data-dismiss="modal">Sign out</a>
+                                                    <span>Not you?</span> <a href="#" role="button" data-toggle="modal" data-target="#myModal-sign-out" data-dismiss="modal">Sign out</a>
                                                 </div>
                                             </div>
                                         </div>
                                         <div class="panel panel-default panel-order-group">
                                             <div class="panel-heading delivery-btns row">
-                                                <a data-toggle="collapse" data-parent="#accordion" href="#collapseTFive"><span><i class="glyphicon glyphicon-ok-circle"></i><b>DELIVERY ADDRESS</b></span></a>
+                                                <a data-toggle="collapse" data-parent="#accordion1" href="#collapseTFive"><span><i class="glyphicon glyphicon-ok-circle"></i><b>DELIVERY ADDRESS</b></span></a>
                                             </div>
                                             <div id="collapseTFive" class="panel-collapse collapse">
                                                 <div class="panel-body">
@@ -600,7 +651,7 @@
                                         </div>
                                         <div class="panel panel-default panel-order-group">
                                             <div class="panel-heading delivery-btns row">
-                                                <a data-toggle="collapse" data-parent="#accordion" href="#collapseTSix"><span><i class="glyphicon glyphicon-ok-circle"></i><b>ORDER SUMMARY</b></span></a>
+                                                <a data-toggle="collapse" data-parent="#accordion1" href="#collapseTSix"><span><i class="glyphicon glyphicon-ok-circle"></i><b>ORDER SUMMARY</b></span></a>
                                             </div>
                                             <div id="collapseTSix" class="panel-collapse collapse">
                                                 <div class="panel-body">
@@ -646,7 +697,7 @@
                             	<div class="bs-example">
                                 	<div class="row">
                                         <div class="col-lg-3">
-                                            <ul class="nav nav-tabs payment-nav">
+                                            <ul class="nav-tabs payment-nav">
                                                 <li class="active"><a data-toggle="tab" href="#CashDelivery">COD</a></li>
                                                 <li><a data-toggle="tab" href="#BankTransfer">Bank Transfer</a></li>
                                                 <li><a data-toggle="tab" href="#CreditCard">Credit Card</a></li>
@@ -656,16 +707,106 @@
                                             <div class="tab-content">
                                                 <div id="CashDelivery" class="tab-pane fade in active">
                                                     <h3>Cash on Delivery</h3>
-                                                    <p>Aliquip placeat salvia cillum iphone. Seitan aliquip quis cardigan american apparel, butcher voluptate nisi qui. Raw denim you probably haven't heard of them jean shorts Austin. Nesciunt tofu stumptown aliqua, retro synth master cleanse. Mustache cliche tempor, williamsburg carles vegan helvetica. Reprehenderit butcher retro keffiyeh dreamcatcher synth.</p>
+                                                   <?php require("botdetect.php"); ?>
+                                                    <div class="input">
+														<?php // Adding BotDetect Captcha to the page
+                                                          $FormCaptcha = new Captcha("FormCaptcha");
+                                                          $FormCaptcha->UserInputID = "CaptchaCode";
+                                                          $FormCaptcha->CodeLength = 3;
+                                                          $FormCaptcha->ImageWidth = 150;
+                                                          $FormCaptcha->ImageStyle = ImageStyle::Graffiti2;
+                                                
+                                                          // only show the Captcha if it hasn't been already solved for the current message
+                                                          if(!$FormCaptcha->IsSolved) { ?>
+                                                            <?php echo $FormCaptcha->Html(); ?>
+                                                            <input type="text" name="CaptchaCode" id="CaptchaCode" class="textbox" />
+                                                            <?php 
+                                                          } ?>
+                                                   </div>
+                                                   
+                                                    <a class="btn btn-lg save-and-contineu cofirm-order-btn" role="button">Confirm Order</a>
                                                 </div>
                                                 <div id="BankTransfer" class="tab-pane fade">
                                                     <h3>Bank Transfer</h3>
-                                                    <p>Vestibulum nec erat eu nulla rhoncus fringilla ut non neque. Vivamus nibh urna, ornare id gravida ut, mollis a magna. Aliquam porttitor condimentum nisi, eu viverra ipsum porta ut. Nam hendrerit bibendum turpis, sed molestie mi fermentum id. Aenean volutpat velit sem. Sed consequat ante in rutrum convallis. Nunc facilisis leo at faucibus adipiscing.</p>
+                                                    <select class="form-control placeholder">
+                                                    	<option selected="selected">Select Bank</option>
+                                                        <option>HBL</option>
+                                                        <option>MCB</option>
+                                                        <option>Alfalah Bank</option>
+                                                        <option>Standard Chartered</option>
+                                                        <option>UBL</option>
+                                                  	</select>
+                                                    <a class="btn btn-lg save-and-contineu cofirm-order-btn" role="button">Make Payment</a>
                                                 </div>
                                                 <div id="CreditCard" class="tab-pane fade">
-                                                    <h3>Credit Card</h3>
-                                                    <p>WInteger convallis, nulla in sollicitudin placerat, ligula enim auctor lectus, in mollis diam dolor at lorem. Sed bibendum nibh sit amet dictum feugiat. Vivamus arcu sem, cursus a feugiat ut, iaculis at erat. Donec vehicula at ligula vitae venenatis. Sed nunc nulla, vehicula non porttitor in, pharetra et dolor. Fusce nec velit velit. Pellentesque consectetur eros.</p>
-                                                </div>
+                                                	<div class="container">
+                                                    	<p class="credit-cards"><span>Pay using Credit Card.</span> <span class="visa"></span> <span class="master"></span> <span class="amex"></span> <span class="diners"></span> <span class="discover"></span></p>
+                                                    </div>
+                                                    <div class="container margin-from-top">
+                                                        <div class="row">
+                                                            <div class="col-xs-12 col-md-5">
+                                                                <div class="panel panel-default">
+                                                                    <div class="panel-heading">
+                                                                        <h3 class="panel-title">
+                                                                            Payment Details
+                                                                        </h3>
+                                                                        <div class="checkbox pull-right">
+                                                                            <label>
+                                                                                <input type="checkbox" />
+                                                                                Remember
+                                                                            </label>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="panel-body">
+                                                                        <form role="form">
+                                                                        <div class="form-group">
+                                                                            <label for="cardNumber">
+                                                                                CARD NUMBER</label>
+                                                                            <div class="input-group">
+                                                                                <input type="text" class="form-control" id="cardNumber" placeholder="Valid Card Number"
+                                                                                    required autofocus />
+                                                                                <span class="input-group-addon"><span class="glyphicon glyphicon-lock"></span></span>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="row">
+                                                                            <div class="col-xs-7 col-md-7">
+                                                                                <div class="form-group">
+                                                                                    <label for="expityMonth">
+                                                                                        EXPIRY DATE</label>
+                                                                                    <div class="col-xs-12 col-lg-12 pl-ziro">
+                                                                                        <select class="span2 form-control" name="expiry_year">
+                                                                                            <option value="13">2013</option>
+                                                                                            <option value="14">2014</option>
+                                                                                            <option value="15">2015</option>
+                                                                                            <option value="16">2016</option>
+                                                                                            <option value="17">2017</option>
+                                                                                            <option value="18">2018</option>
+                                                                                            <option value="19">2019</option>
+                                                                                            <option value="20">2020</option>
+                                                                                            <option value="21">2021</option>
+                                                                                            <option value="22">2022</option>
+                                                                                            <option value="23">2023</option>
+                                                                                       	</select>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                            <div class="col-xs-5 col-md-5 pull-right">
+                                                                                <div class="form-group">
+                                                                                    <label for="cvCode">
+                                                                                        CV CODE</label>
+                                                                                    <input type="password" class="form-control" id="cvCode" placeholder="CV" required />
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                        </form>
+                                                                    </div>
+                                                                </div>
+                                                                <a href="#" class="btn btn-lg btn-block save-and-contineu" role="button">Pay</a>
+                                                                <p><span class="security-guarantee"></span></p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                             	</div>
                                             </div>
                                         </div>
                                     </div>
@@ -1003,5 +1144,11 @@ $( document.body ).on( 'click', '.dropdown-menu li', function( event ) {
  
    return false;
  
+});
+</script>
+<script>
+$('.collapse').on('show.bs.collapse', function () {
+    $otherPanels = $(this).parents('.panel-group').siblings('.panel-group');
+    $('.collapse',$otherPanels).removeClass('in');
 });
 </script>

@@ -3,7 +3,7 @@
 
 #carousel_5 { width: 100% !important; height: 350px; overflow: hidden; position: relative !important; z-index: 1; top: 0; left: 0; }
 
-.collection_half_div { min-height:550px; border: 1px solid #c7a95a; width:100%; padding:20px; }
+.collection_half_div { min-height:550px; border: 1px solid #c7a95a; width:100%; padding:20px; text-align:center; }
 
 .caroufredsel_wrapper { width: 100% !important; top:0 !important; }
 
@@ -128,3 +128,9 @@
 .easy-return p span { margin-left:-50px; }
 
 .online-canel p span { margin-left:-100px; }
+
+#gallery_01 img{ border:2px solid white; }
+
+#gallery_01 .active img{ border:1px solid #c7a95a !important; }
+
+#gallery_01 a img { margin:10px 5px !important; }

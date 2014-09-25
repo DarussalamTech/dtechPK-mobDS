@@ -8,29 +8,13 @@
     <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Karla%7CMontserrat">
 	<link rel="stylesheet" href="lightbox/css/screen.css">
 	<link rel="stylesheet" href="lightbox/css/lightbox.css">
+    <link rel="stylesheet" href="magnifier/jquery.fancybox.css">
 	<script src="js/jquery-1.10.2.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
 	<script type="text/javascript" src="js/jquery.carouFredSel-6.0.4-packed.js"></script>
     <script src="js/star-rating.js" type="text/javascript"></script>
-    <script type="text/javascript">
-			$(function() {
-				$('#carousel_5').carouFredSel({
-					items: 1,
-					auto: false,
-					scroll: {
-						fx: 'none'
-					},
-					pagination: {
-						container: '#pager_5',
-						event: 'mouseenter',
-						anchorBuilder: function(nr) {
-							var src = $(this).attr('src').replace('/large/', '/small/');
-							return '<img src="'+ src +'" border="0" />';
-						}
-					}
-				});
-			});
-		</script>
+    <script src="magnifier/jquery.fancybox.js" type="text/javascript"></script>
+    <script src="magnifier/jquery.elevateZoom-2.5.3.min.js" type="text/javascript"></script>
 </head>
 <body>
 <?php include_once("header.php"); ?>
@@ -45,16 +29,14 @@
 	<div class="row">
         <div class="col-lg-5">
             <div class="collection_half_div">
-                <div class="collection_content">
-                    <div class="collection_slider">
-                        <div id="wrapper_5">
-                                <div id="carousel_5" style="width:484px;">
-                                	<img src="img/large/dictionay-front.jpg" alt="rally1" />
-                                	<img src="img/large/dictionay-back.jpg" alt="rally2" />
-                                </div>
-                             <div id="pager_5"></div>
-                        </div>
-                    </div>
+            	<img id="img_01" src="images/small/image_1.jpg" data-zoom-image="images/large/image_1.jpg"/>
+                <div id="gallery_01"> 
+                  <a href="#" data-image="images/small/image_1.jpg" data-zoom-image="images/large/image_1.jpg" class="active">
+                    <img id="img_01" src="images/thumb/image_1.jpg" />
+                  </a>
+                  <a href="#" data-image="images/small/image_2.jpg" data-zoom-image="images/large/image_2.jpg" >
+                    <img id="img_01" src="images/thumb/image_2.jpg" />
+                  </a>
                 </div>
             </div>
         </div>
@@ -248,8 +230,6 @@
         });
     });
 </script>
-<script src="lightbox/js/lightbox.js"></script>
-
 	<script>
 	var _gaq = _gaq || [];
 	_gaq.push(['_setAccount', 'UA-2196019-1']);
@@ -261,5 +241,16 @@
 		var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
 	})();
 	</script>
+    <script type="text/javascript">
+			$("#img_01").elevateZoom({gallery:'gallery_01', cursor: 'pointer', galleryActiveClass: 'active'}); 
+			
+			//pass the images to Fancybox
+			$("#img_01").bind("click", function(e) {  
+			  var ez =   $('#img_01').data('elevateZoom');	
+				$.fancybox(ez.getGalleryList());
+			  return false;
+			});
+			
+		</script>
 </body>
 </html>
