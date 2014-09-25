@@ -32,7 +32,7 @@
 <div class="logo-header">
 	<div class="container">
     	<div class="col-lg-1">
-        	<a href="#"><h1 class="logo"></h1></a>
+        	<a href="index.php"><h1 class="logo"><img src="images/dtech-logo.png" alt="Darussalam Logo"></h1></a>
         </div>
         <div class="col-lg-11">
         	<div class="row header-right">
@@ -439,7 +439,7 @@
                                                                 </tr>
                                                                 <tr class="delivery-tr">
                                                                     <td class="left-delivery text-hidden">A</td>
-                                                                    <td class="right-delivery"><a class="btn btn-xs save-and-contineu" role="button" data-toggle="modal" data-target="#myModal-delivery" data-dismiss="modal">Continue</a> Or? <a href="#">Edit</a></td>
+                                                                    <td class="right-delivery"><a class="btn btn-xs save-and-contineu">Continue</a> Or? <a href="#">Edit</a></td>
                                                                 </tr>
                                                             </table>
                                                         </div>
@@ -540,7 +540,7 @@
                                                                 </tr>
                                                                 <tr class="delivery-tr">
                                                                     <td class="left-delivery text-hidden">A</td>
-                                                                    <td class="right-delivery"><a class="btn btn-xs save-and-contineu" role="button" data-toggle="modal" data-target="#myModal-delivery" data-dismiss="modal">Continue</a> Or? <a href="#">Edit</a></td>
+                                                                    <td class="right-delivery"><a class="btn btn-xs save-and-contineu">Continue</a> Or? <a href="#">Edit</a></td>
                                                                 </tr>
                                                             </table>
                                                         </div>
@@ -641,7 +641,7 @@
                                                                 </tr>
                                                                 <tr class="delivery-tr">
                                                                     <td class="left-delivery text-hidden">A</td>
-                                                                    <td class="right-delivery"><a class="btn btn-xs save-and-contineu" role="button" data-toggle="modal" data-target="#myModal-delivery" data-dismiss="modal">Continue</a> Or? <a href="#">Edit</a></td>
+                                                                    <td class="right-delivery"><a class="btn btn-xs save-and-contineu">Continue</a> Or? <a href="#">Edit</a></td>
                                                                 </tr>
                                                             </table>
                                                         </div>
@@ -677,7 +677,7 @@
                                                         </div>
                                                         <div class="col-lg-12 estimated-total">
                                                             <div class="col-lg-6 pull-left">
-                                                                <a class="btn btn-lg contineu-order-btn" role="button" data-toggle="modal" data-target="#myModal-payment-method" data-dismiss="modal">Continue</a>
+                                                                <a class="btn btn-lg contineu-order-btn">Continue</a>
                                                             </div>
                                                             <div class="col-lg-6 pull-right">
                                                                 <p>Estimated Total: Rs. 800</p>
@@ -775,25 +775,25 @@
                                                                                         EXPIRY DATE</label>
                                                                                     <div class="col-xs-12 col-lg-12 pl-ziro">
                                                                                         <select class="span2 form-control" name="expiry_year">
-                                                                                            <option value="13">2013</option>
-                                                                                            <option value="14">2014</option>
-                                                                                            <option value="15">2015</option>
-                                                                                            <option value="16">2016</option>
-                                                                                            <option value="17">2017</option>
-                                                                                            <option value="18">2018</option>
-                                                                                            <option value="19">2019</option>
-                                                                                            <option value="20">2020</option>
-                                                                                            <option value="21">2021</option>
-                                                                                            <option value="22">2022</option>
-                                                                                            <option value="23">2023</option>
+                                                                                            <option value="13">1/2013</option>
+                                                                                            <option value="14">2/2013</option>
+                                                                                            <option value="15">3/2013</option>
+                                                                                            <option value="16">4/2013</option>
+                                                                                            <option value="17">5/2013</option>
+                                                                                            <option value="18">6/2013</option>
+                                                                                            <option value="19">7/2013</option>
+                                                                                            <option value="20">8/2013</option>
+                                                                                            <option value="21">9/2013</option>
+                                                                                            <option value="22">10/2013</option>
+                                                                                            <option value="23">11/2013</option>
+                                                                                            <option value="23">12/2013</option>
                                                                                        	</select>
                                                                                     </div>
                                                                                 </div>
                                                                             </div>
                                                                             <div class="col-xs-5 col-md-5 pull-right">
                                                                                 <div class="form-group">
-                                                                                    <label for="cvCode">
-                                                                                        CV CODE</label>
+                                                                                    <label for="cvCode">CV CODE</label>
                                                                                     <input type="password" class="form-control" id="cvCode" placeholder="CV" required />
                                                                                 </div>
                                                                             </div>

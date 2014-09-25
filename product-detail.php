@@ -56,6 +56,8 @@
                 <p class="over-line"><b>Rs.</b>1595 PKR</p>
                 <p><b class="rs-text">Rs.</b>1295 PKR</p>
                 <p><b>Shipping:</b> Available</p>
+                <p>Standard delivery in <b>2-3 business days.</b></p>
+                <p>Faster Delivery may be available.</p>
                 <a href="#" class="btn btn-lg btn-default read-sample-btn">Read Sample</a>
                 <a href="#" class="btn btn-lg btn-success shop-now-btn">Shop Now</a>
             </div>

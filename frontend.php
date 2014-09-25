@@ -45,7 +45,7 @@
                    <div class="bottom_collection_content">
                    		<div class="left_collection_content">
                         	<h3>GHAZWAT E NABI SERIES</h3>
-                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
                         </div>
                         <div class="right_collection_content">
                         	<p><span>PRICE:</span> 180 PKR</p>
@@ -73,7 +73,7 @@
                    <div class="bottom_collection_content">
                    		<div class="left_collection_content">
                         	<h3>KIDS EDUCATIONAL</h3>
-                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
                         </div>
                         <div class="right_collection_content">
                         	<p><span>PRICE:</span> 180 PKR</p>
@@ -104,7 +104,7 @@
                    <div class="bottom_collection_content">
                    		<div class="left_collection_content">
                         	<h3>ABAYA AND BAGS</h3>
-                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
                         </div>
                         <div class="right_collection_content">
                         	<p><span>PRICE:</span> 180 PKR</p>
@@ -132,7 +132,7 @@
                    <div class="bottom_collection_content">
                    		<div class="left_collection_content">
                         	<h3>KIDS DIGITAL BOOK</h3>
-                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
                         </div>
                         <div class="right_collection_content">
                         	<p><span>PRICE:</span> 180 PKR</p>
