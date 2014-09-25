@@ -42,7 +42,7 @@ body{overflow-x:hidden}
 
 .collection_images figure figcaption { font-size:18px; color:#252525; padding-left:15px;}
 
-#wrapper, #wrapper_2, #wrapper_3, #wrapper_4 { width: 484px; height: 350px; position: absolute;}
+#wrapper, #wrapper_2, #wrapper_3, #wrapper_4 { width: 484px; height: 350px; position: absolute; border: 1px solid #c7a95a; } 
 
 #carousel, #carousel_2, #carousel_3, #carousel_4 { width: 484px; height: 350px; overflow: hidden; position: absolute; z-index: 1; top: 0; left: 0; }
 
