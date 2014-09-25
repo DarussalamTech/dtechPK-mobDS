@@ -14,7 +14,7 @@
 <?php include_once("header.php"); ?>
 <div class="container product_container">
 	<div class="inner_product_continer">
-    	<div class="product_left_bar">
+    	<div class="col-lg-3 product_left_bar">
         	<div class="product_list_name">
             	<ul>
                 	<li><a href="#">Islamic Stories</a></li>
@@ -46,7 +46,7 @@
             	<img src="images/promotion_banner.jpg" alt="promotion">
             </div>
         </div>
-        <div class="product_right_part">
+        <div class="col-lg-9 product_right_part">
         	<div class="product_main_banner">
             	<img src="images/product_main_banner.jpg" alt="banner">
                 <div class="image_hover_thumbnail">
@@ -62,9 +62,9 @@
             <div class="book_detail_ecom">
             	<h2>Collection/Pack</h2>
                 <div class="book_detail_box">
-                	<div class="book_img"><img src="images/book_img.jpg" alt="book"></div>
+                	<div class="book_img"><a href="product-detail.php"><img src="images/book_img.jpg" alt="book"></a></div>
                     <div class="book_content">
-                    	<span class="book_description">Islamic Teachings for Women (6-Books Set)</span>
+                    	<span class="book_description"><a href="#">Islamic Teachings for Women (6-Books Set)</a></span>
                         <p>RS: 895 PKR</p>
                         <input id="input-21e" value="0" type="number" class="rating" min=0 max=5 step=0.5 data-size="xs" >
                         <span class="ebook_style"><img src="images/marker.png"> eBook</span>
@@ -81,9 +81,9 @@
                     <div class="clr"></div>
                 </div>
                 <div class="book_detail_box">
-                	<div class="book_img"><img src="images/book_img.jpg" alt="book"></div>
+                	<div class="book_img"><a href="product-detail.php"><img src="images/book_img.jpg" alt="book"></a></div>
                     <div class="book_content">
-                    	<span class="book_description">Islamic Teachings for Women (6-Books Set)</span>
+                    	<span class="book_description"><a href="#">Islamic Teachings for Women (6-Books Set)</a></span>
                         <p>RS: 895 PKR</p>
                         <input id="input-21e" value="0" type="number" class="rating" min=0 max=5 step=0.5 data-size="xs" >
                         <span class="ebook_style"><img src="images/marker.png"> eBook</span>
@@ -100,9 +100,9 @@
                     <div class="clr"></div>
                 </div>
                 <div class="book_detail_box">
-                	<div class="book_img"><img src="images/book_img.jpg" alt="book"></div>
+                	<div class="book_img"><a href="product-detail.php"><img src="images/book_img.jpg" alt="book"></a></div>
                     <div class="book_content">
-                    	<span class="book_description">Islamic Teachings for Women (6-Books Set)</span>
+                    	<span class="book_description"><a href="#">Islamic Teachings for Women (6-Books Set)</a></span>
                         <p>RS: 895 PKR</p>
                         <input id="input-21e" value="0" type="number" class="rating" min=0 max=5 step=0.5 data-size="xs" >
                         <span class="ebook_style"><img src="images/marker.png"> eBook</span>
@@ -119,9 +119,9 @@
                     <div class="clr"></div>
                 </div>
                 <div class="book_detail_box border_remove">
-                	<div class="book_img"><img src="images/book_img.jpg" alt="book"></div>
+                	<div class="book_img"><a href="product-detail.php"><img src="images/book_img.jpg" alt="book"></a></div>
                     <div class="book_content">
-                    	<span class="book_description">Islamic Teachings for Women (6-Books Set)</span>
+                    	<span class="book_description"><a href="#">Islamic Teachings for Women (6-Books Set)</a></span>
                         <p>RS: 895 PKR</p>
                         <input id="input-21e" value="0" type="number" class="rating" min=0 max=5 step=0.5 data-size="xs" >
                         <span class="ebook_style"><img src="images/marker.png"> eBook</span>
@@ -140,9 +140,12 @@
             </div>
         </div>
     </div>
+</div>
     
-    <div class="bottom_collection_detail">
-    	<h3>WHAT OTHER CUSTOMERS ARE LOOKING AT?</h3>
+    <div class="container bottom_collection_detail">
+    	<div class="row">
+    		<h3>WHAT OTHER CUSTOMERS ARE LOOKING AT?</h3>
+        </div>
         <div class="collection_images">
         	<figure>
             	<img src="images/b_img_1.jpg" alt="image" />
@@ -162,7 +165,6 @@
             </figure>
         </div>
     </div>
-</div>
 
 <!--<form>
     <input id="input-21e" value="0" type="number" class="rating" min=0 max=5 step=0.5 data-size="xs" >

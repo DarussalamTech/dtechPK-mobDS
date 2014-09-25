@@ -1,38 +1,68 @@
+
 .rating-xs{font-size:24px !important;}
+
 .label.label-info{font-size:15px !important;}
-.border_remove{border:none !important;}
-.product_container{width:996px; min-height:1300px; position:relative;}
-.inner_product_continer{width:996px; min-height:1310px; position:relative; border-bottom:1px solid #c7a95a;}
-.product_left_bar{width:238px; min-height:1300px; /*background:#033;*/ position:relative; float:left; display:inline;}
-.product_left_bar .product_list_name{width:238px; min-height:700px; position:relative; border-bottom:1px solid #c7a95a;}
-.product_left_bar .product_list_name ul{position:relative; list-style:none; width:238px; padding-left:15px;}
+
+.border_remove { border:none !important; }
+
+.inner_product_continer { border-bottom:1px solid #c7a95a; float:left; padding-bottom: 20px; }
+
+.product_left_bar .product_list_name { position:relative; border-bottom:1px solid #c7a95a; margin-right:20px; }
+
+.product_left_bar .product_list_name ul { position:relative; list-style:none; width:238px; padding-left:15px; }
+
 .product_left_bar .product_list_name ul li{width:100%; height:auto; position:relative; padding:6px 0; }
+
 .product_left_bar .product_list_name ul li a{font-family:'Open Sans',sans-serif; font-size:14px; color:#464646;}
+
 .product_left_bar .promotion_banner{width:100%; height:auto; text-align:center; position:relative; margin-top:10px;}
 
-.product_right_part{width:730px; min-height:1300px; /*background:#603;*/ position:relative; float:left; display:inline; margin-left:28px;}
-.product_right_part .product_main_banner{width:100%; height:350px; position:relative;}
-.product_right_part .product_main_banner img{width:730px; height:auto; position:relative;}
-.product_right_part .book_detail_ecom{width:730px; min-height:700px; position:relative; /*background:#CCC;*/}
-.product_right_part .book_detail_ecom h2{font-family:'Open Sans',sans-serif; font-size:22px; color:#464646; border-bottom:1px solid #c7a95a; padding-bottom:5px;}
-.book_detail_ecom .book_detail_box{width:730px; height:222px; position:relative; border-bottom:1px solid #c7a95a; /*background:#999;*/ font-family:'Open Sans',sans-serif; margin-bottom:10px;}
+.product_right_part .product_main_banner{width:100%; position:relative;}
+
+.product_right_part .book_detail_ecom h2{font-family:'Open Sans',sans-serif; font-size:22px; color:#464646; border-bottom:1px solid #c7a95a; padding-bottom:10px; margin: 15px 0 0 0; }
+
+.book_detail_ecom .book_detail_box{ position:relative; border-bottom:1px solid #c7a95a; /*background:#999;*/ font-family:'Open Sans',sans-serif; padding:10px 0; }
+
 .book_detail_box .book_img{width:147px; height:191px; position:relative; border:1px solid #c7a95a; float:left; display:inline; margin-right:16px;}
+
 .book_detail_box .book_img img{width:145px; position:relative;}
+
 .book_content{width:330px; height:191px;; position:relative; float:left; display:inline;}
-.book_content .book_description{font-size:16px; color:#464646; font-weight:800; display:block; width:180px; padding-left:15px; margin-bottom:5px;}
+
+.book_content .book_description { display:block; width:180px; padding-left:15px; margin-bottom:5px;}
+
+.book_content .book_description a { font-size:16px; color:#464646; font-weight:800; text-decoration:none; }
+
 .book_content p{font-size:16px; font-weight:800; border-bottom:1px solid #bababa; border-top:1px solid #bababa; width:200px; padding-left:15px; height:32px; line-height:32px;}
+
 .ebook_style{font-size:18px; color:#6bad50; position:relative; font-weight:bold; display:block; margin:4px 0;}
+
 .read_button{width:117px; height:26px; background:#f0f0f0; position:relative; border:1px solid #cacaca; border-radius:3px; font-family:'Open Sans',sans-serif !important; font-size:11px; color:#090909; font-weight:bold;}
+
 .shop_button{width:119px; height:28px; background:#f58837; position:relative; border:1px solid #f58837; border-radius:3px; font-family:'Open Sans',sans-serif !important; font-size:11px; color:#fff; font-weight:bold;}
+
 .book_description_2{width:236px; height:191px; position:relative; float:left; display:inline;}
+
 .book_description_2 p{font-size:16px;}
+
 .book_description_2 p span{color:#000; font-weight:600;}
+
 .book_description_2 p.right_book_description{font-size:12px;}
+
 .hard_cover_div_style{width:228px; height:42px; border:1px dashed #999; background:#f2f2f2; padding:3px 0 0 10px; margin-top:24px;}
+
 .hard_cover_div_style p{font-size:12px; color:#9b9490; font-weight:600; font-family:calibri; line-height:14px; margin:0;}
+
 .hard_cover_div_style p span{color:#355da5;; font-weight:normal; text-decoration:underline; font-weight:600; }
+
 .hard_cover_div_style p:last-child{font-size:18px; color:#808081; font-weight:600; text-decoration:none; margin:0;}
-.image_hover_thumbnail{width:730px; height:60px; /*background:#006;*/ position:absolute; bottom:0;}
-.image_hover_thumbnail ul{list-style:none; position:relative; width:730px;}
-.image_hover_thumbnail ul li{width:146px; height:60px; border:1px solid #CCC; float:left; display:inline; position:relative; background:#666;}
-.image_hover_thumbnail ul li a{text-decoration:none; font-size:24px; font-family:calibri; color:#000;}
+
+.image_hover_thumbnail{ width:100%; }
+
+.image_hover_thumbnail ul{list-style:none; position:relative; margin: 0; padding: 0; }
+
+.image_hover_thumbnail ul li { width:146px; border:1px solid #CCC; float:left; display:inline; position:relative; background:#666; padding: 7px 0; margin: 0; text-align:center; }
+
+.image_hover_thumbnail ul li a { text-decoration:none; font-size:24px; color:#000; text-align:center; padding: 0; margin: 0; }
+
+.book_detail_ecom { float:left; width:100%; }

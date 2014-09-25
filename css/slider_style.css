@@ -8,7 +8,6 @@ body{overflow-x:hidden}
 .collection_half_div h2{font-family:calibri; font-size:24px; color:#252525; padding-left:15px; }
 .collection_content{width:484px; height:512px; position:relative; border-top:#c7a95a solid 1px;}
 .collection_slider{width:484px; height:380px; background:#FFF; position:relative; top:30px;}
-.bottom_collection_content{width:484px; height:130px; /*background:#036;*/ position:relative;}
 .left_collection_content{width:314px; height:130px; position:relative; /*background:#999;*/ float:left; display:inline;}
 .left_collection_content h3{font-family:calibri; font-size:22px; color:#252525; padding-left:15px; margin-top:10px;}
 .left_collection_content p{font-family:calibri; font-size:12px; color:#252525; padding:0 15px;}
@@ -16,7 +15,7 @@ body{overflow-x:hidden}
 .right_collection_content p{font-family:calibri; font-size:16px; color:#252525; padding:10px 0 0 15px}
 .right_collection_content p span{font-weight:bold; font-size:16px;}
 .bottom_collection_detail{width:996px; height:300px; position:relative; /*background:#33F;*/ }
-.bottom_collection_detail h3{font-family:calibri; font-size:22px; color:#252525; border-bottom:#c7a95a solid 1px; padding:30px 0 15px 15px;}
+.bottom_collection_detail h3{font-family:calibri; font-size:22px; color:#252525; border-bottom:#c7a95a solid 1px; padding:15px 0 15px 15px; margin: 0; }
 .collection_images{width:996px; height:200px; position:relative; /*background:#666;*/ margin-top:25px;}
 .collection_images figure:first-child{margin-left:0;}
 .collection_images figure{float:left; display:inline; position:relative; margin-left:16px;}
