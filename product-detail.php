@@ -5,13 +5,9 @@
     <link href="css/star-rating.css" media="all" rel="stylesheet" type="text/css"/>
     <link href="css/style.css" rel="stylesheet" type="text/css" />
     <link href="css/product-detail.css" rel="stylesheet" type="text/css" />
-    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Karla%7CMontserrat">
-	<link rel="stylesheet" href="lightbox/css/screen.css">
-	<link rel="stylesheet" href="lightbox/css/lightbox.css">
     <link rel="stylesheet" href="magnifier/jquery.fancybox.css">
 	<script src="js/jquery-1.10.2.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
-	<script type="text/javascript" src="js/jquery.carouFredSel-6.0.4-packed.js"></script>
     <script src="js/star-rating.js" type="text/javascript"></script>
     <script src="magnifier/jquery.fancybox.js" type="text/javascript"></script>
     <script src="magnifier/jquery.elevateZoom-2.5.3.min.js" type="text/javascript"></script>
