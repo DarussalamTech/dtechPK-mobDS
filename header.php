@@ -8,12 +8,12 @@
         <div class="pull-right">
             <span>Like us on</span>
             <div class="tweet-btn-header">
-            	<a href="https://twitter.com/twitter" class="twitter-follow-button" data-show-count="false" data-show-screen-name="false">Tweet</a>
+            	<a href="https://twitter.com/DarussalamSNS" class="twitter-follow-button" data-show-count="false" data-show-screen-name="false">Tweet</a>
          	</div>
-<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+			<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
             <!-- Place this tag where you want the widget to render. -->
             <div class="gplus-btn-header">
-            	<div class="g-follow" data-annotation="none" data-height="20" data-href="//plus.google.com/u/0/105372605182828278518" data-rel="author"></div>
+            	<div class="g-follow" data-annotation="none" data-height="20" data-href="https://plus.google.com/+Darussalampublishers" data-rel="author"></div>
             </div>
             <div class="fb-btn-header">
                 <div class="fb-like" data-href="https://www.facebook.com/darussalam.sns/" data-layout="button" data-action="like" data-show-faces="false" data-share="false"></div>
