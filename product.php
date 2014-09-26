@@ -6,8 +6,10 @@
         <link href="css/style.css" rel="stylesheet" type="text/css" />
         <link href="css/slider_style.css" rel="stylesheet" type="text/css" />
         <link href="css/css_products.css" rel="stylesheet" type="text/css" />
+        <link type="text/css" rel="stylesheet" href="css/jquery.loading-indicator.css" />
 		<script src="js/jquery-1.10.2.min.js"></script>
         <script src="js/bootstrap.min.js"></script>
+        <script src="js/jquery.loading-indicator.min.js"></script>
         <script type="text/javascript" src="js/jquery.carouFredSel-6.0.4-packed.js"></script>
         <!--[if lt IE 9]>
           <script src="http://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
@@ -241,7 +243,15 @@ $('a[data-toggle="tab"]').on('shown.bs.tab', function (e) {
   $('.tab-pane').not($(this).attr('href')).removeClass('active');
 });
 </script>
-
+<script>
+		homeLoader = $('body').loadingIndicator({
+                  useImage: false,
+        }).data("loadingIndicator");
+		
+		$( window ).load(function() {
+			$(".loading-indicator-wrapper").hide();
+		});
+	</script>
 </div>
 <?php include_once("footer.php"); ?>  
 </body>

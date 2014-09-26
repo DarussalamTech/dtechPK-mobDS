@@ -8,6 +8,7 @@
         <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
         <link href="css/style.css" rel="stylesheet" type="text/css" />
         <link href="css/slider_style.css" rel="stylesheet" type="text/css" />
+        <link type="text/css" rel="stylesheet" href="css/jquery.loading-indicator.css" />
         <!--[if lt IE 7 ]> <link rel="stylesheet" type="text/css" href="css/all-ie-only.css" /> <![endif]-->
         <!--[if IE 7 ]> <link rel="stylesheet" type="text/css" href="css/all-ie-only.css" /> <![endif]-->
         <!--[if IE 8 ]> <link rel="stylesheet" type="text/css" href="css/all-ie-only.css" /> <![endif]-->
@@ -15,6 +16,7 @@
         <!--[if (gt IE 9)|!(IE)]><link rel="stylesheet" type="text/css" href="css/all-ie-only.css" /> <!--<![endif]-->
 		<script src="js/jquery-1.10.2.min.js"></script>
         <script src="js/bootstrap.min.js"></script>
+        <script src="js/jquery.loading-indicator.min.js"></script>
         <script type="text/javascript" src="js/jquery.carouFredSel-6.0.4-packed.js"></script>
         <!--[if lt IE 9]>
           <script src="http://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
@@ -141,4 +143,13 @@
 		<?php include_once("frontend.php"); ?>
 		<?php include_once("footer.php"); ?>
     </body>
+    <script>
+		homeLoader = $('body').loadingIndicator({
+                  useImage: false,
+        }).data("loadingIndicator");
+		
+		$( window ).load(function() {
+			$(".loading-indicator-wrapper").hide();
+		});
+	</script>
 </html>

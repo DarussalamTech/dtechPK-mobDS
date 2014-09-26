@@ -5,11 +5,13 @@
     <link href="css/star-rating.css" media="all" rel="stylesheet" type="text/css"/>
     <link href="css/style.css" rel="stylesheet" type="text/css" />
     <link href="css/product-detail.css" rel="stylesheet" type="text/css" />
+    <link type="text/css" rel="stylesheet" href="css/jquery.loading-indicator.css" />
     <link rel="stylesheet" href="magnifier/jquery.fancybox.css">
 	<script src="js/jquery-1.10.2.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
     <script src="js/star-rating.js" type="text/javascript"></script>
     <script src="magnifier/jquery.fancybox.js" type="text/javascript"></script>
+	<script src="js/jquery.loading-indicator.min.js"></script>
     <!--[if lt IE 9]>
           <script src="http://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
           <script src="http://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
@@ -132,7 +134,7 @@
                         <form>
                             <input id="input-21e" value="0" type="number" class="rating" min=0 max=5 step=0.5 data-size="xs" >
                         </form>
-                        <p>Rs: 700 <b>25%off</b></p>
+                        <p>Rs: 700 <b>25% off</b></p>
                     </div>
                 </div>
                 <div class="row list-detail-row">
@@ -144,7 +146,7 @@
                         <form>
                             <input id="input-21e" value="0" type="number" class="rating" min=0 max=5 step=0.5 data-size="xs" >
                         </form>
-                        <p>Rs: 700 <b>25%off</b></p>
+                        <p>Rs: 700 <b>25% off</b></p>
                     </div>
                 </div>
                 <div class="row list-detail-row">
@@ -156,7 +158,7 @@
                         <form>
                             <input id="input-21e" value="0" type="number" class="rating" min=0 max=5 step=0.5 data-size="xs" >
                         </form>
-                        <p>Rs: 700 <b>25%off</b></p>
+                        <p>Rs: 700 <b>25% off</b></p>
                     </div>
                 </div>
                 <div class="row list-detail-row">
@@ -168,7 +170,7 @@
                         <form>
                             <input id="input-21e" value="0" type="number" class="rating" min=0 max=5 step=0.5 data-size="xs" >
                         </form>
-                        <p>Rs: 700 <b>25%off</b></p>
+                        <p>Rs: 700 <b>25% off</b></p>
                     </div>
                 </div>
             </div>
@@ -242,6 +244,15 @@
 		ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
 		var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
 	})();
+	</script>
+    <script>
+		homeLoader = $('body').loadingIndicator({
+                  useImage: false,
+        }).data("loadingIndicator");
+		
+		$( window ).load(function() {
+			$(".loading-indicator-wrapper").hide();
+		});
 	</script>
     <script type="text/javascript">
 			$("#img_01").elevateZoom({gallery:'gallery_01', cursor: 'pointer', galleryActiveClass: 'active'}); 
