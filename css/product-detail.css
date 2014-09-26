@@ -95,7 +95,7 @@
 
 .rating-xs { font-size:15px !important; }
 
-..rating-gly-star { padding: 0 !important; margin: 0 !important; }
+.rating-gly-star { padding: 0 !important; margin: 0 !important; }
 
 .list-detail-row { padding: 15px 0; margin: 0; border-bottom: 1px solid #bababa; }
 
@@ -113,21 +113,23 @@
 
 .order-row { border-top: 1px solid #f0f0f0; border-bottom: 1px solid #f0f0f0; text-align:center; margin: 20px auto 10px auto; }
 
-.order-row p span { float:left; font-size:45px; margin-top:25px; position:absolute; color:#565656; }
+.order-row p span { float:left; font-size:45px; margin-top:10px; color:#565656; }
 
-.order-row p { padding: 10px 0; margin: 0; font-weight:bold; font-size:24px; }
+.order-row p { padding: 0; margin: 0; font-weight:bold; font-size:24px; }
 
-.order-row p a { color:#1c1c1c; font-weight:bold; }
+.order-row p a { color:#1c1c1c; font-weight:bold; float:left; text-align:center; margin: 0 0 0 20px; }
 
-.track-order { border-right: 1px solid #f0f0f0; }
+.track-order { border-right: 1px solid #f0f0f0; padding: 10px 0; }
 
-.online-canel { border-left: 1px solid #f0f0f0; }
+.online-canel { border-left: 1px solid #f0f0f0; padding: 10px 0; }
 
-.track-order p span { margin-left:-50px; }
+.easy-return { padding: 10px 0; }
 
-.easy-return p span { margin-left:-50px; }
+.track-order p span { margin-left:50px; }
 
-.online-canel p span { margin-left:-100px; }
+.easy-return p span { margin-left:40px; }
+
+.online-canel p span { margin-left:40px; }
 
 #gallery_01 img{ border:2px solid white; }
 

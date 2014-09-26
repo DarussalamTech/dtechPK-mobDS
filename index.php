@@ -1,12 +1,18 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en" xmlns:fb="http://www.facebook.com/2008/fbml">
 	<head>
+    	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
         <title>Darussalam Publishers</title>
         <link rel="shortcut icon" href="images/72x72favicon.png">
         <!-- Bootstrap core CSS -->
         <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
         <link href="css/style.css" rel="stylesheet" type="text/css" />
         <link href="css/slider_style.css" rel="stylesheet" type="text/css" />
+        <!--[if lt IE 7 ]> <link rel="stylesheet" type="text/css" href="css/all-ie-only.css" /> <![endif]-->
+        <!--[if IE 7 ]> <link rel="stylesheet" type="text/css" href="css/all-ie-only.css" /> <![endif]-->
+        <!--[if IE 8 ]> <link rel="stylesheet" type="text/css" href="css/all-ie-only.css" /> <![endif]-->
+        <!--[if IE 9 ]> <link rel="stylesheet" type="text/css" href="css/all-ie-only.css" /> <![endif]-->
+        <!--[if (gt IE 9)|!(IE)]><link rel="stylesheet" type="text/css" href="css/all-ie-only.css" /> <!--<![endif]-->
 		<script src="js/jquery-1.10.2.min.js"></script>
         <script src="js/bootstrap.min.js"></script>
         <script type="text/javascript" src="js/jquery.carouFredSel-6.0.4-packed.js"></script>

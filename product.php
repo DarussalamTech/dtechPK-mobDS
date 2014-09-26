@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
@@ -47,18 +47,54 @@
             </div>
         </div>
         <div class="col-lg-9 product_right_part">
-        	<div class="product_main_banner">
-            	<img src="images/product_main_banner.jpg" alt="banner">
-                <div class="image_hover_thumbnail">
-                	<ul>
-                    	<li><a href="">thumbnail 1</a></li>
-                        <li><a href="">thumbnail 2</a></li>
-                        <li><a href="">thumbnail 3</a></li>
-                        <li><a href="">thumbnail 4</a></li>
-                        <li><a href="">thumbnail 5</a></li>
-                    </ul>
-                </div>
-            </div>
+            <div class="row">
+            	<div class="tab-content fade-tabs">
+                	<div class="tab-pane fade in active" id="one">
+                    	<nav class="navbar submenu navbar-tab-submenu" role="navigation">
+                        	<ul class="nav navbar-nav navbar-tab-nav in" id="one-nav">
+                            	<li><a href="#" id=""><img src="images/product-banner-1.jpg" alt="banner"></a></li>
+                         	</ul>
+                      	</nav>
+                  	</div>
+                    <div class="tab-pane fade" id="two">
+                    	<nav class="navbar submenu navbar-tab-submenu" role="navigation">
+                        	<ul class="nav navbar-nav navbar-tab-nav in" id="two-nav">
+                            	<li><a href="#" id=""><img src="images/product-banner-2.jpg" alt="banner"></a></li>
+                           	</ul>
+                      	</nav>
+                  	</div>
+                    <div class="tab-pane fade" id="three">
+                    	<nav class="navbar submenu navbar-tab-submenu" role="navigation">
+                        	<ul class="nav navbar-nav navbar-tab-nav in" id="three-nav">
+                            	<li><a href="#" id=""><img src="images/product-banner-3.jpg" alt="banner"></a></li>
+                          	</ul>
+                      	</nav>
+                  	</div>
+                    <div class="tab-pane fade" id="four">
+                    	<nav class="navbar submenu navbar-tab-submenu" role="navigation">
+                        	<ul class="nav navbar-nav navbar-tab-nav in" id="four-nav">
+                            	<li><a href="#" id=""><img src="images/product-banner-4.jpg" alt="banner"></a></li>
+                          	</ul>
+                      	</nav>
+                  	</div>
+                    <div class="tab-pane fade" id="five">
+                    	<nav class="navbar submenu navbar-tab-submenu" role="navigation">
+                        	<ul class="nav navbar-nav navbar-tab-nav in" id="five-nav">
+                            	<li><a href="#" id=""><img src="images/product-banner-5.jpg" alt="banner"></a></li>
+                          	</ul>
+                      	</nav>
+                  	</div>
+              	</div>
+          	</div>
+            <div class="row image_hover_thumbnail">
+            	<ul class="nav nav-tabs navbar-tab-submenu" id="myTab" role="tablist">
+                	<li class="active"><a href="#one" role="tab" data-toggle="tab">thumbnail 1</a></li>
+                    <li><a href="#two" role="tab" data-toggle="tab">thumbnail 2</a></li>
+                    <li><a href="#three" role="tab" data-toggle="tab">thumbnail 3</a></li>
+                    <li><a href="#four" role="tab" data-toggle="tab">thumbnail 4</a></li>
+                    <li><a href="#five" role="tab" data-toggle="tab">thumbnail 5</a></li>
+             	</ul>
+         	</div>
             <div class="book_detail_ecom">
             	<h2>Collection/Pack</h2>
                 <div class="book_detail_box">
@@ -192,6 +228,14 @@
             }
         });
     });
+</script>
+<script>
+$('a','.nav-tabs > li').hover(function(){ 
+  $(this).trigger('click'); 
+});
+$('a[data-toggle="tab"]').on('shown.bs.tab', function (e) {
+  $('.tab-pane').not($(this).attr('href')).removeClass('active');
+});
 </script>
 
 </div>

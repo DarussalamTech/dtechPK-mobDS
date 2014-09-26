@@ -29,7 +29,7 @@
 
 .book_content{width:330px; height:191px;; position:relative; float:left; display:inline;}
 
-.book_content .book_description { display:block; width:180px; padding-left:15px; margin-bottom:5px;}
+.book_content .book_description { display:block; width:260px; padding-left:15px; margin-bottom:5px;}
 
 .book_content .book_description a { font-size:16px; color:#464646; font-weight:800; text-decoration:none; }
 
@@ -59,10 +59,21 @@
 
 .image_hover_thumbnail{ width:100%; }
 
-.image_hover_thumbnail ul{list-style:none; position:relative; margin: 0; padding: 0; }
+.image_hover_thumbnail ul { list-style:none; position:relative; margin: 0; padding: 0; }
 
-.image_hover_thumbnail ul li { width:146px; border:1px solid #CCC; float:left; display:inline; position:relative; background:#666; padding: 7px 0; margin: 0; text-align:center; }
+.image_hover_thumbnail ul li { width:149px !important; border:1px solid #CCC !important; float:left !important; display:inline !important; position:relative !important; background:#666 !important; padding: 7px 0 !important; margin: 0 !important; text-align:center !important; }
 
 .image_hover_thumbnail ul li a { text-decoration:none; font-size:24px; color:#000; text-align:center; padding: 0; margin: 0; }
 
 .book_detail_ecom { float:left; width:100%; }
+
+.navbar-tab-nav { padding: 0 !Important; margin: 0 !important; }
+
+.navbar-tab-nav li { padding: 0 !Important; margin: 0 !important; }
+
+.navbar-tab-nav li a { padding: 0 !Important; margin: 0 !important; }
+
+.navbar-tab-submenu { border-bottom: none !important; padding: 0 !important; margin: 0 !important; }
+
+.navbar-tab-submenu li a:hover { background: none !important; }
+
