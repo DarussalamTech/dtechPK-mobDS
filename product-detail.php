@@ -10,6 +10,10 @@
 	<script src="js/bootstrap.min.js"></script>
     <script src="js/star-rating.js" type="text/javascript"></script>
     <script src="magnifier/jquery.fancybox.js" type="text/javascript"></script>
+    <!--[if lt IE 9]>
+          <script src="http://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+          <script src="http://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+        <![endif]-->
     <script src="magnifier/jquery.elevateZoom-2.5.3.min.js" type="text/javascript"></script>
 </head>
 <body>

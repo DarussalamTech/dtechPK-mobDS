@@ -77,3 +77,4 @@
 
 .navbar-tab-submenu li a:hover { background: none !important; }
 
+.navbar-tab-submenu li.active { background:#FFF !important; }
