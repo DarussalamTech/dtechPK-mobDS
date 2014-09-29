@@ -4,11 +4,10 @@
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
         <link href="css/style.css" rel="stylesheet" type="text/css" />
         <link href="css/accordion.css" rel="stylesheet" type="text/css" />
-        <link rel="stylesheet" href="css/jquery-ui.css">
+        <link type="text/css" rel="stylesheet" href="css/jquery.loading-indicator.css" />
 		<script src="js/jquery-1.10.2.min.js"></script>
         <script src="js/bootstrap.min.js"></script>
-         <script src="//code.jquery.com/ui/1.11.1/jquery-ui.js"></script>
-    <script src="js/jquery.accordion.2.0.js" type="text/javascript"></script>
+        <script src="js/jquery.loading-indicator.min.js"></script>
 <body>
 <?php include_once("header.php"); ?>
 <div class="container">
@@ -29,6 +28,15 @@
     	</ol>
     </div>
 </div>
-<?php include_once("footer.php"); ?>  
+<?php include_once("footer.php"); ?>
+<script>
+		homeLoader = $('body').loadingIndicator({
+                  useImage: false,
+        }).data("loadingIndicator");
+		
+		$( window ).load(function() {
+			$(".loading-indicator-wrapper").hide();
+		});
+	</script>  
 </body>
 </html>

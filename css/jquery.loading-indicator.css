@@ -10,7 +10,8 @@
   -moz-transition: all 250ms linear;
   -o-transition: all 250ms linear;
   -webkit-transition: all 250ms linear;
-  transition: all 250ms linear
+  transition: all 250ms linear;
+  overflow: hidden !important;
 }
 
 .loading-indicator-wrapper.loader-visible {
