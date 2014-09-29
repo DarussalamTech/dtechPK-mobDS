@@ -1,6 +1,8 @@
 <!doctype html>
 <html lang="en">
 <head>
+	<title>Products</title>
+    <link rel="shortcut icon" href="images/72x72favicon.png">
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
     <link href="css/star-rating.css" media="all" rel="stylesheet" type="text/css"/>
         <link href="css/style.css" rel="stylesheet" type="text/css" />
