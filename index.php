@@ -143,6 +143,7 @@
 		<?php include_once("frontend.php"); ?>
 		<?php include_once("footer.php"); ?>
     </body>
+    <!--
     <script>
 		homeLoader = $('body').loadingIndicator({
                   useImage: false,
@@ -152,4 +153,5 @@
 			$(".loading-indicator-wrapper").hide();
 		});
 	</script>
+    -->
 </html>

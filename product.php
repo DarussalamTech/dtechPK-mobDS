@@ -24,6 +24,42 @@
 	<div class="inner_product_continer">
     	<div class="col-lg-3 product_left_bar">
         	<div class="product_list_name">
+            	<li class="nav-header">
+                	<a href="#" data-toggle="collapse" data-target="#userMenu"><i class="glyphicon glyphicon-arrow-right"></i> Catagory</a>
+                    <ul style="list-style: none;" class="collapse" id="userMenu">
+                    	<li class="active"><a href="#">- Aqeedah/Creed</a></li>
+                        <li><a href="#">- Atlas, Dictionary, Encyclopedia</a></li>
+                        <li><a href="#">- Autobiography &amp; Travelogue</a></li>
+                        <li><a href="#">- Biography &amp; History</a></li>
+                        <li><a href="#">- Biography of Prophet</a></li>
+                        <li><a href="#">- Children Books</a></li>
+                        <li><a href="#">- Collection/Pack</a></li>
+                        <li><a href="#">- Comparative Religion</a></li>
+                        <li><a href="#">- Dawah/New &amp; Non Muslim</a></li>
+                        <li><a href="#">- Fatawa, Fiqh, Islamic Law</a></li>
+                  	</ul>
+             	</li>
+                <li class="nav-header">
+                	<a href="#" data-toggle="collapse" data-target="#radioDJMenu"><i class="glyphicon glyphicon-arrow-right"></i> Sort by</a>
+                    <ul style="list-style: none;" class="collapse" id="radioDJMenu">
+                    	<li><a href="#">- Popular</a></li>
+                        <li><a href="#">- Lowest price</a></li>
+                        <li><a href="#">- Largest price</a></li>
+                        <li><a href="#">- A-Z</a></li>
+                        <li><a href="#">- Z-A</a></li>
+                 	</ul>
+            	</li>
+                <li class="nav-header">
+                	<a href="#" data-toggle="collapse" data-target="#headDJMenu"><i class="glyphicon glyphicon-arrow-right"></i> Capacity</a>
+                    <ul style="list-style: none;" class="collapse" id="headDJMenu">
+                    	<li><a href="#">- 100 Pages</a></li>
+                        <li><a href="#">- 200 Pages</a></li>
+                        <li><a href="#">- 500 Pages</a></li>
+                        <li><a href="#">- 1000 Pages</a></li>
+                        <li><a href="#">- 2000 Pages</a></li>
+                  	</ul>
+                </li>
+            	<!--
             	<ul>
                 	<li><a href="#">Islamic Stories</a></li>
                     <li><a href="#">Collection/Pack</a></li>
@@ -49,6 +85,7 @@
                     <li><a href="#">Ramadan, Hajj, Zakat</a></li>
                     <li><a href="#">Islamic Character & Culture</a></li>
                 </ul>
+                -->
             </div>
             <div class="promotion_banner">
             	<img src="images/promotion_banner.jpg" alt="promotion">
@@ -245,7 +282,8 @@ $('a[data-toggle="tab"]').on('shown.bs.tab', function (e) {
   $('.tab-pane').not($(this).attr('href')).removeClass('active');
 });
 </script>
-<script>
+<!--
+    <script>
 		homeLoader = $('body').loadingIndicator({
                   useImage: false,
         }).data("loadingIndicator");
@@ -254,6 +292,26 @@ $('a[data-toggle="tab"]').on('shown.bs.tab', function (e) {
 			$(".loading-indicator-wrapper").hide();
 		});
 	</script>
+    -->
+<script>
+$('[data-toggle=collapse]').click(function(){
+	
+  	// toggle icon
+  	$(this).find("i").toggleClass("glyphicon-arrow-right glyphicon-arrow-down");
+  
+});
+
+$('.collapse').on('show', function (e) {
+  
+  	// hide open menus
+  	$('.collapse').each(function(){
+      if ($(this).hasClass('in')) {
+          $(this).collapse('toggle');
+      }
+    });
+  
+})
+</script>
 </div>
 <?php include_once("footer.php"); ?>  
 </body>

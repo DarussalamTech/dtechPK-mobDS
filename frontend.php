@@ -2,28 +2,28 @@
 	<div class="main_home-banner">
     	<div id="carwrapper">
 			<div id="carcarousel">
-				<img src="img/large/carnaval1.jpg" alt="c1" width="600" height="400" />
-				<img src="img/large/carnaval2.jpg" alt="c2" width="600" height="400" />
-				<img src="img/large/carnaval3.jpg" alt="c3" width="600" height="400" />
-				<img src="img/large/carnaval4.jpg" alt="c4" width="600" height="400" />
-				<img src="img/large/carnaval5.jpg" alt="c5" width="600" height="400" />
-				<img src="img/large/carnaval6.jpg" alt="c6" width="600" height="400" />
-				<img src="img/large/carnaval7.jpg" alt="c7" width="600" height="400" />
-				<img src="img/large/carnaval8.jpg" alt="c8" width="600" height="400" />
-				<img src="img/large/carnaval9.jpg" alt="c9" width="600" height="400" />
-				<img src="img/large/carnaval10.jpg" alt="c10" width="600" height="400" />
+				<img src="img/large-bg/1.png" class="img-resposnive thumbnail" alt="c1" />
+				<img src="img/large-bg/2.png" class="img-resposnive thumbnail" alt="c2" />
+				<img src="img/large-bg/3.png" class="img-resposnive thumbnail" alt="c3" />
+				<img src="img/large-bg/4.png" class="img-resposnive thumbnail" alt="c4" />
+				<img src="img/large-bg/5.png" class="img-resposnive thumbnail" alt="c5" />
+				<img src="img/large-bg/6.png" class="img-resposnive thumbnail" alt="c6" />
+				<img src="img/large-bg/7.png" class="img-resposnive thumbnail" alt="c7" />
+				<img src="img/large-bg/8.png" class="img-resposnive thumbnail" alt="c8" />
+				<img src="img/large-bg/9.png" class="img-resposnive thumbnail" alt="c9" />
+				<img src="img/large-bg/10.png" class="img-resposnive thumbnail" alt="c10" />
 			</div>
 			<div id="carthumbnails">
-				<img src="img/small/carnaval1.jpg" alt="c1" width="100" height="100" />
-				<img src="img/small/carnaval2.jpg" alt="c2" width="100" height="100" />
-				<img src="img/small/carnaval3.jpg" alt="c3" width="100" height="100" />
-				<img src="img/small/carnaval4.jpg" alt="c4" width="100" height="100" />
-				<img src="img/small/carnaval5.jpg" alt="c5" width="100" height="100" />
-				<img src="img/small/carnaval6.jpg" alt="c6" width="100" height="100" />
-				<img src="img/small/carnaval7.jpg" alt="c7" width="100" height="100" />
-				<img src="img/small/carnaval8.jpg" alt="c8" width="100" height="100" />
-				<img src="img/small/carnaval9.jpg" alt="c9" width="100" height="100" />
-				<img src="img/small/carnaval10.jpg" alt="c10" width="100" height="100" />
+				<img src="img/small-bg/1.png" class="img-resposnive thumbnail" alt="c1" />
+				<img src="img/small-bg/2.png" class="img-resposnive thumbnail" alt="c2" />
+				<img src="img/small-bg/3.png" class="img-resposnive thumbnail" alt="c3" />
+				<img src="img/small-bg/4.png" class="img-resposnive thumbnail" alt="c4" />
+				<img src="img/small-bg/5.png" class="img-resposnive thumbnail" alt="c5" />
+				<img src="img/small-bg/6.png" class="img-resposnive thumbnail" alt="c6" />
+				<img src="img/small-bg/7.png" class="img-resposnive thumbnail" alt="c7" />
+				<img src="img/small-bg/8.png" class="img-resposnive thumbnail" alt="c8" />
+				<img src="img/small-bg/9.png" class="img-resposnive thumbnail" alt="c9" />
+				<img src="img/small-bg/10.png" class="img-resposnive thumbnail" alt="c10" />
 			</div>
 		</div>
     </div>

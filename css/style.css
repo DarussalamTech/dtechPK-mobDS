@@ -175,6 +175,8 @@ body { background:#FFF; font-family:Arial, Helvetica, sans-serif !important; }
 
 .navbar-nav .open .dropdown-menu .dropdown-header{ color:#fff; }
 
+.navbar-nav > li { width:auto !important; }
+
 }
 
 .sign-up-row { background:#f6f6f6; border:1px solid #e1e1e1; border-radius:10px; padding: 15px; }
@@ -386,3 +388,23 @@ body { background:#FFF; font-family:Arial, Helvetica, sans-serif !important; }
 .security-guarantee { background: url('../images/card-small.png') no-repeat -2px -71px; width: 269px; height: 49px; float:left; margin-top:15px; }
 
 .pl-ziro { padding-right:10px !important; }
+
+#carcarousel .red { background:red; }
+
+#carcarousel .blue { background:blue; }
+
+#carcarousel .white { background:white; }
+
+#carcarousel .black { background:black; }
+
+#carcarousel .green { background:green; }
+
+#carcarousel .orange { background:orange; }
+
+#carcarousel .purple { background:purple; }
+
+#carcarousel .yellow { background:yellow; }
+
+#carcarousel .brown { background:brown; }
+
+#carcarousel .sky { background:#0FF; }

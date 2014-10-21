@@ -837,56 +837,41 @@
                         <ul class="dropdown-menu megamenu row">
                         	<li class="col-sm-3">
                             	<ul>
-                                	<li class="dropdown-header">Glyphicons</li>
-                                    <li><a href="#">Available glyphs</a></li>
-                                    <li class="disabled"><a href="#">How to use</a></li>
-                                    <li><a href="#">Examples</a></li>
-                                    <li class="divider"></li>
-                                    <li class="dropdown-header">Dropdowns</li>
-                                    <li><a href="#">Example</a></li>
-                                    <li><a href="#">Aligninment options</a></li>
-                                    <li><a href="#">Headers</a></li>
-                                    <li><a href="#">Disabled menu items</a></li>
+                                	<li><a href="#">Islamic Stories</a></li>
+                                    <li><a href="#">Collection/Pack</a></li>
+                                    <li><a href="#">Salat, Supplication, Repentance</a></li>
+                                    <li><a href="#">Children Books</a></li>
+                                    <li><a href="#">Worship/Ibadah</a></li>
+                                    <li><a href="#">Biography of Prophet</a></li>
                              	</ul>
                           	</li>
                             <li class="col-sm-3">
                             	<ul>
-                                	<li class="dropdown-header">Button groups</li>
-                                    <li><a href="#">Basic example</a></li>
-                                    <li><a href="#">Button toolbar</a></li>
-                                    <li><a href="#">Sizing</a></li>
-                                    <li><a href="#">Nesting</a></li>
-                                    <li><a href="#">Vertical variation</a></li>
-                                    <li class="divider"></li>
-                                    <li class="dropdown-header">Button dropdowns</li>
-                                    <li><a href="#">Single button dropdowns</a></li>
+                                	<li><a href="#">Lectures/Sermon</a></li>
+                                	<li><a href="#">Biography &amp; History</a></li>
+                                	<li><a href="#">Aqeedah/Creed</a></li>
+                                    <li><a href="#">Dawah/New &amp; Non Muslim</a></li>
+                                    <li><a href="#">Fatawa, Fiqh, Islamic Law</a></li>
+                                    <li><a href="#">Hadith</a></li>
                              	</ul>
                          	</li>
                             <li class="col-sm-3">
                             	<ul>
-                                	<li class="dropdown-header">Input groups</li>
-                                    <li><a href="#">Basic example</a></li>
-                                    <li><a href="#">Sizing</a></li>
-                                    <li><a href="#">Checkboxes and radio addons</a></li>
-                                    <li class="divider"></li>
-                                    <li class="dropdown-header">Navs</li>
-                                    <li><a href="#">Tabs</a></li>
-                                    <li><a href="#">Pills</a></li>
-                                    <li><a href="#">Justified</a></li>
+                                	<li><a href="#">Atlas, Dictionary, Encyclopedia</a></li>
+                                    <li><a href="#">Women &amp; Family</a></li>
+                                	<li><a href="#">General, Misc.</a></li>
+                                    <li><a href="#">Islam &amp; Science</a></li>
+                                    <li><a href="#">Rights, Duties, Etiquette, Character</a></li>
+                                    <li><a href="#">Autobiography &amp; Travelogue</a></li>
                               	</ul>
                          	</li>
                             <li class="col-sm-3">
                             	<ul>
-                                	<li class="dropdown-header">Navbar</li>
-                                    <li><a href="#">Default navbar</a></li>
-                                    <li><a href="#">Buttons</a></li>
-                                    <li><a href="#">Text</a></li>
-                                    <li><a href="#">Non-nav links</a></li>
-                                    <li><a href="#">Component alignment</a></li>
-                                    <li><a href="#">Fixed to top</a></li>
-                                    <li><a href="#">Fixed to bottom</a></li>
-                                    <li><a href="#">Static top</a></li>
-                                    <li><a href="#">Inverted navbar</a></li>
+                                	<li><a href="#">Comparative Religion</a></li>
+                                    <li><a href="#">Learning, Language, Curriculum</a></li>
+                                    <li><a href="#">Hereafter/Unseen</a></li>
+                                    <li><a href="#">Ramadan, Hajj, Zakat</a></li>
+                                    <li><a href="#">Islamic Character &amp; Culture</a></li>
                               	</ul>
                          	</li>
                     	</ul>
@@ -896,21 +881,18 @@
                         <ul class="dropdown-menu megamenu row">
                         	<li class="col-sm-3">
                             	<ul>
-                                	<li class="dropdown-header">Button groups</li>
-                                    <li><a href="#">Basic example</a></li>
-                                    <li><a href="#">Button toolbar</a></li>
-                                    <li><a href="#">Sizing</a></li>
-                                    <li><a href="#">Nesting</a></li>
-                                    <li><a href="#">Vertical variation</a></li>
-                                    <li class="divider"></li>
-                                    <li class="dropdown-header">Button dropdowns</li>
-                                    <li><a href="#">Single button dropdowns</a></li>
+                                	<li><a href="#">Misc.</a></li>
+                                    <li><a href="#">Educational Toys</a></li>
+                                    <li><a href="#">Digital Quran</a></li>
+                                    <li><a href="#">Counter</a></li>
+                                    <li><a href="#">Pen Quran</a></li>
+                                    <li><a href="#">Peace Mobile</a></li>
                              	</ul>
                           	</li>
                             <li class="col-sm-3">
                             	<ul>
                                 	<li class="dropdown-header">Glyphicons</li>
-                                    <li><a href="#">Available glyphs</a></li>
+                                    <li><a href="#">Counter</a></li>
                                     <li class="disabled"><a href="#">How to use</a></li>
                                     <li><a href="#">Examples</a></li>
                                     <li class="divider"></li>
@@ -951,43 +933,32 @@
                     	</ul>
                   	</li>
                     <li class="dropdown menu-large">
-                    	<a href="#" class="dropdown-toggle" data-toggle="dropdown">MULTIMEDIA <!-- <b class="caret"></b> --></a>
+                    	<a href="#" class="dropdown-toggle" data-toggle="dropdown">FOODS <!-- <b class="caret"></b> --></a>
                         <ul class="dropdown-menu megamenu row">
                         	<li class="col-sm-3">
                             	<ul>
-                                	<li class="dropdown-header">Glyphicons</li>
-                                    <li><a href="#">Available glyphs</a></li>
-                                    <li class="disabled"><a href="#">How to use</a></li>
-                                    <li><a href="#">Examples</a></li>
-                                    <li class="divider"></li>
-                                    <li class="dropdown-header">Dropdowns</li>
-                                    <li><a href="#">Example</a></li>
-                                    <li><a href="#">Aligninment options</a></li>
-                                    <li><a href="#">Headers</a></li>
-                                    <li><a href="#">Disabled menu items</a></li>
+                                    <li><a href="#">Dates</a></li>
+                                    <li><a href="#">Halwajat</a></li>
+                                    <li><a href="#">Honey</a></li>
+                                    <li><a href="#">Olive Oil</a></li>
+                                    <li><a href="#">Olives</a></li>
                              	</ul>
                           	</li>
                             <li class="col-sm-3">
                             	<ul>
-                                	<li class="dropdown-header">Button groups</li>
                                     <li><a href="#">Basic example</a></li>
                                     <li><a href="#">Button toolbar</a></li>
                                     <li><a href="#">Sizing</a></li>
                                     <li><a href="#">Nesting</a></li>
                                     <li><a href="#">Vertical variation</a></li>
-                                    <li class="divider"></li>
-                                    <li class="dropdown-header">Button dropdowns</li>
                                     <li><a href="#">Single button dropdowns</a></li>
                              	</ul>
                          	</li>
                             <li class="col-sm-3">
                             	<ul>
-                                	<li class="dropdown-header">Input groups</li>
                                     <li><a href="#">Basic example</a></li>
                                     <li><a href="#">Sizing</a></li>
                                     <li><a href="#">Checkboxes and radio addons</a></li>
-                                    <li class="divider"></li>
-                                    <li class="dropdown-header">Navs</li>
                                     <li><a href="#">Tabs</a></li>
                                     <li><a href="#">Pills</a></li>
                                     <li><a href="#">Justified</a></li>
@@ -995,7 +966,6 @@
                          	</li>
                             <li class="col-sm-3">
                             	<ul>
-                                	<li class="dropdown-header">Navbar</li>
                                     <li><a href="#">Default navbar</a></li>
                                     <li><a href="#">Buttons</a></li>
                                     <li><a href="#">Text</a></li>
@@ -1014,29 +984,22 @@
                         <ul class="dropdown-menu megamenu row">
                         	<li class="col-sm-3">
                             	<ul>
-                                	<li class="dropdown-header">Glyphicons</li>
-                                    <li><a href="#">Available glyphs</a></li>
-                                    <li class="disabled"><a href="#">How to use</a></li>
-                                    <li><a href="#">Examples</a></li>
-                                    <li class="divider"></li>
-                                    <li class="dropdown-header">Dropdowns</li>
-                                    <li><a href="#">Example</a></li>
-                                    <li><a href="#">Aligninment options</a></li>
-                                    <li><a href="#">Headers</a></li>
-                                    <li><a href="#">Disabled menu items</a></li>
+                                    <li><a href="#">Biography</a></li>
+                                    <li><a href="#">Education</a></li>
+                                    <li><a href="#">General</a></li>
+                                    <li><a href="#">Hadith</a></li>
+                                    <li><a href="#">Hajj &amp; Umrah</a></li>
+                                    <li><a href="#">Health</a></li>
                              	</ul>
                           	</li>
                             <li class="col-sm-3">
                             	<ul>
-                                	<li class="dropdown-header">Button groups</li>
-                                    <li><a href="#">Basic example</a></li>
-                                    <li><a href="#">Button toolbar</a></li>
-                                    <li><a href="#">Sizing</a></li>
-                                    <li><a href="#">Nesting</a></li>
-                                    <li><a href="#">Vertical variation</a></li>
-                                    <li class="divider"></li>
-                                    <li class="dropdown-header">Button dropdowns</li>
-                                    <li><a href="#">Single button dropdowns</a></li>
+                                    <li><a href="#">History</a></li>
+                                    <li><a href="#">Islamic Law</a></li>
+                                    <li><a href="#">Kids</a></li>
+                                    <li><a href="#">Quran</a></li>
+                                    <li><a href="#">Reference</a></li>
+                                    <li><a href="#">Women</a></li>
                              	</ul>
                          	</li>
                             <li class="col-sm-3">
@@ -1054,7 +1017,6 @@
                          	</li>
                             <li class="col-sm-3">
                             	<ul>
-                                	<li class="dropdown-header">Navbar</li>
                                     <li><a href="#">Default navbar</a></li>
                                     <li><a href="#">Buttons</a></li>
                                     <li><a href="#">Text</a></li>
@@ -1073,29 +1035,24 @@
                         <ul class="dropdown-menu megamenu row">
                         	<li class="col-sm-3">
                             	<ul>
-                                	<li class="dropdown-header">Glyphicons</li>
-                                    <li><a href="#">Available glyphs</a></li>
-                                    <li class="disabled"><a href="#">How to use</a></li>
-                                    <li><a href="#">Examples</a></li>
-                                    <li class="divider"></li>
-                                    <li class="dropdown-header">Dropdowns</li>
-                                    <li><a href="#">Example</a></li>
-                                    <li><a href="#">Aligninment options</a></li>
-                                    <li><a href="#">Headers</a></li>
-                                    <li><a href="#">Disabled menu items</a></li>
+                                	<li><a href="#">Aab-e-ZamZam</a></li>
+                                    <li><a href="#">Calendar, Stickers</a></li>
+                                    <li><a href="#">Abaya</a></li>
+                                    <li><a href="#">T-shirts</a></li>
+                                    <li><a href="#">Tasbeeh</a></li>
+                                    <li><a href="#">Bags</a></li>
+                                    <li><a href="#">Caps</a></li>
                              	</ul>
                           	</li>
                             <li class="col-sm-3">
                             	<ul>
-                                	<li class="dropdown-header">Button groups</li>
-                                    <li><a href="#">Basic example</a></li>
-                                    <li><a href="#">Button toolbar</a></li>
-                                    <li><a href="#">Sizing</a></li>
-                                    <li><a href="#">Nesting</a></li>
-                                    <li><a href="#">Vertical variation</a></li>
-                                    <li class="divider"></li>
-                                    <li class="dropdown-header">Button dropdowns</li>
-                                    <li><a href="#">Single button dropdowns</a></li>
+                                	<li><a href="#">Scarfs</a></li>
+                                    <li><a href="#">Caps</a></li>
+                                    <li><a href="#">Hajj &amp; Umrah Variety (Ahram, Bags, Bottle etc)</a></li>
+                                    <li><a href="#">Jay-e-Namaz (Prayer Mat)</a></li>
+                                    <li><a href="#">Misvak</a></li>
+                                    <li><a href="#">Perfumes</a></li>
+                                    <li><a href="#">Stallers</a></li>
                              	</ul>
                          	</li>
                             <li class="col-sm-3">

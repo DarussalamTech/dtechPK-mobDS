@@ -69,7 +69,8 @@
  	</div>
 </div>
 <?php include_once("footer.php"); ?>
-<script>
+<!--
+    <script>
 		homeLoader = $('body').loadingIndicator({
                   useImage: false,
         }).data("loadingIndicator");
@@ -77,6 +78,7 @@
 		$( window ).load(function() {
 			$(".loading-indicator-wrapper").hide();
 		});
-	</script>  
+	</script>
+    -->
 </body>
 </html>

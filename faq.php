@@ -178,7 +178,8 @@ height: "toggle"
 </script>
 -->
 <?php include_once("footer.php"); ?> 
-<script>
+<!--
+    <script>
 		homeLoader = $('body').loadingIndicator({
                   useImage: false,
         }).data("loadingIndicator");
@@ -187,5 +188,6 @@ height: "toggle"
 			$(".loading-indicator-wrapper").hide();
 		});
 	</script>
+    -->
 </body>
 </html>

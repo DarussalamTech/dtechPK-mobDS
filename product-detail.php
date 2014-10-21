@@ -247,6 +247,7 @@
 		var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
 	})();
 	</script>
+    <!--
     <script>
 		homeLoader = $('body').loadingIndicator({
                   useImage: false,
@@ -256,6 +257,7 @@
 			$(".loading-indicator-wrapper").hide();
 		});
 	</script>
+    -->
     <script type="text/javascript">
 			$("#img_01").elevateZoom({gallery:'gallery_01', cursor: 'pointer', galleryActiveClass: 'active'}); 
 			

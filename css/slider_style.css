@@ -56,9 +56,9 @@ body{overflow-x:hidden}
 
 #carwrapper { width: 100%; height: 380px; overflow: hidden; }
 
-.caroufredsel_wrapper{height:380px !important; width:996px !important; top:0 !important;}
+.caroufredsel_wrapper { height:380px !important; width:100% !important; top:0 !important;}
 
-#carcarousel { width: 600px; height: 400px; overflow: hidden; position: absolute; top: 0; left: 0; }
+#carcarousel { height: 400px !important; overflow: hidden; position: absolute; top: 0; left: 0; }
 
 #carcarousel img { display: block; float: left; width:996px !important; }
 
@@ -67,3 +67,5 @@ body{overflow-x:hidden}
 #carthumbnails img { display: block; float: left; margin: 10px; width: 100px; height: 100px; box-shadow: 0 0 10px #000; }
 
 #carthumbnails:hover { top:260px !important; transition:all 0.5s ease; }
+
+.caroufredsel_wrapper
