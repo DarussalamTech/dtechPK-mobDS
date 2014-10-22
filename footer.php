@@ -56,7 +56,7 @@
                 <a href="payment-method.php">Payment Methods</a>
                 <a href="shipment.php">Shipment</a>
                 <a href="branches.php">Branches</a>
-                <a href="#">Contact Us</a>
+                <a href="contact-us.php">Contact Us</a>
             </p>
             <p>&copy; 2014 Darussalam, Inc. All Rights Reserved.</p>
         </div>
